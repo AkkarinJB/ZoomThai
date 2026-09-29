@@ -14,10 +14,9 @@ def seed_data():
         result = extractor.extract_document(pdf_path)
         print(f"สกัดได้ {len(result['items'])} รายการ confidence: {result['extraction_confidence']['items_table']})")
     except Exception as e:
-        print(f"ไม่สามารถอ่าน PDF ได้ (ตรวจสอบพาธไฟล์): {e}")
-        return
-
-    # ข้อมูลส่วนหัวประกาศ (ดึงจากโจทย์ตัวอย่าง)
+        print(f"ไม่สามารถอ่าน PDF ได้ : {e}")
+        return  
+    #test
     announcement_id = "PEA-TDDP.2(A)-082/2564"
     
     print("2. กำลังเชื่อมต่อ Database...")
