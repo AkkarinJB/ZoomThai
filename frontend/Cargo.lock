@@ -1932,6 +1932,7 @@ version = "0.1.0"
 dependencies = [
  "console_error_panic_hook",
  "gloo-net 0.3.1",
+ "js-sys",
  "leptos",
  "leptos_router",
  "reqwasm",

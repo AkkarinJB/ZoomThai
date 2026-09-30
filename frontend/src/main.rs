@@ -1,3 +1,4 @@
+pub mod config;
 pub mod environments;
 pub mod models;
 pub mod services;
