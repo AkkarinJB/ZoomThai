@@ -7,12 +7,12 @@ import { pgTable,
          integer, 
          numeric, 
          index, 
-         serial 
+         serial,
 } from 'drizzle-orm/pg-core';
 
 const vector = customType<{ data: number[]; driverData: string }>({
   dataType() {
-    return 'vector(1536)';
+    return 'vector(768)';
   },
   toDriver(value: number[]): string {
     return `[${value.join(',')}]`;
@@ -54,4 +54,11 @@ export const embeddings = pgTable('embeddings', {
   pageRef: varchar('page_ref', { length: 20 }),
   chunkText: text('chunk_text'),
   embedding: vector('embedding'),
+});
+
+export const documentChunks = pgTable('document_chunks', {
+  id: varchar('id', { length: 255 }).primaryKey(),
+  announcementId: varchar('announcement_id', { length: 50 }).references(() => announcements.id, { onDelete: 'cascade' }),
+  content: text('content').notNull(),
+  embedding: vector('embedding'), 
 });
