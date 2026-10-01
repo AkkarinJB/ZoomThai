@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ประกาศประกวดราคา | การไฟฟ้าส่วนภูมิภาค</title>
+  <style>
+    body { font-family: 'Sarabun', 'Tahoma', sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    .region-header { background: #1a237e; color: #fff; padding: 15px 30px; }
+    .region-header h1 { margin: 0; font-size: 20px; }
+    .region-header .subtitle { font-size: 13px; color: #bbdefb; }
+    .breadcrumb { padding: 10px 30px; font-size: 13px; color: #666; }
+    .breadcrumb a { color: #1565c0; text-decoration: none; }
+    .content-wrapper { max-width: 1200px; margin: 0 auto; padding: 20px 30px; }
+    .view-filters { background: #fff; padding: 15px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px; }
+    .view-filters label { font-size: 13px; margin-right: 10px; }
+    .view-filters select, .view-filters input[type="text"], .view-filters input[type="date"] {
+      padding: 5px 8px; border: 1px solid #ccc; border-radius: 3px; font-size: 13px;
+    }
+    .view-filters .form-submit { background: #1565c0; color: #fff; border: none; padding: 6px 16px; border-radius: 3px; cursor: pointer; }
+    .view-content { background: #fff; border: 1px solid #ddd; border-radius: 4px; }
+    table.views-table { width: 100%; border-collapse: collapse; }
+    table.views-table th { background: #e8eaf6; color: #1a237e; padding: 10px 8px; font-size: 13px; text-align: left; border-bottom: 2px solid #1a237e; }
+    table.views-table td { padding: 8px; font-size: 13px; border-bottom: 1px solid #e0e0e0; }
+    table.views-table tr:hover { background: #f5f5f5; }
+    table.views-table .views-field-budget { text-align: right; }
+    table.views-table a { color: #1565c0; text-decoration: none; }
+    table.views-table a:hover { text-decoration: underline; }
+    .pager { text-align: center; padding: 15px; }
+    .pager__item { display: inline-block; margin: 0 3px; }
+    .pager__item a, .pager__item span { padding: 5px 10px; border: 1px solid #ccc; border-radius: 3px; font-size: 13px; text-decoration: none; color: #333; }
+    .pager__item--active span { background: #1565c0; color: #fff; border-color: #1565c0; }
+    .pager__item--next a, .pager__item--last a { color: #1565c0; }
+    .footer { background: #263238; color: #b0bec5; padding: 20px 30px; text-align: center; font-size: 12px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="region-header">
+    <h1>ระบบจัดซื้อจัดจ้างภาครัฐ — การไฟฟ้าส่วนภูมิภาค (กฟภ.)</h1>
+    <div class="subtitle">Provincial Electricity Authority — e-Procurement System</div>
+  </div>
+  <div class="breadcrumb">
+    <a href="#">หน้าแรก</a> &raquo; <a href="#">ประกาศจัดซื้อจัดจ้าง</a> &raquo; ประกวดราคาอิเล็กทรอนิกส์ (e-bidding)
+  </div>
+  <div class="content-wrapper">
+    <!-- Filter form -->
+    <div class="view-filters" id="views-exposed-form-procurement-list">
+      <form>
+        <label for="edit-method">วิธีการ:</label>
+        <select id="edit-method" name="method">
+          <option value="2" selected>e-bidding</option>
+          <option value="1">สอบราคา</option>
+          <option value="3">คัดเลือก</option>
+          <option value="4">เฉพาะเจาะจง</option>
+        </select>
+        <label for="edit-keyword">คำค้น:</label>
+        <input type="text" id="edit-keyword" name="keyword" placeholder="ชื่อโครงการ / เลขที่ประกาศ">
+        <label for="edit-date-from">ตั้งแต่:</label>
+        <input type="date" id="edit-date-from" name="date_from">
+        <label for="edit-date-to">ถึง:</label>
+        <input type="date" id="edit-date-to" name="date_to">
+        <label for="edit-budget-min">วงเงินขั้นต่ำ:</label>
+        <input type="text" id="edit-budget-min" name="budget_min" placeholder="0">
+        <button type="submit" class="form-submit">ค้นหา</button>
+      </form>
+    </div>
+    <!-- Results table -->
+    <div class="view-content">
+      <table class="views-table cols-7">
+        <thead>
+          <tr>
+            <th class="views-field views-field-counter">ลำดับ</th>
+            <th class="views-field views-field-ref-no">เลขที่ประกาศ</th>
+            <th class="views-field views-field-title">ชื่อโครงการ</th>
+            <th class="views-field views-field-budget">วงเงิน (บาท)</th>
+            <th class="views-field views-field-publish-date">วันที่ประกาศ</th>
+            <th class="views-field views-field-deadline">วันปิดรับ</th>
+            <th class="views-field views-field-download">TOR</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Row 1-5: Real TOR files -->
+          <tr class="views-row views-row-1 odd">
+            <td class="views-field views-field-counter">1</td>
+            <td class="views-field views-field-ref-no">PEA-TDDP.2(A)-082/2564</td>
+            <td class="views-field views-field-title">จัดซื้ออุปกรณ์สายไฟ สำหรับใช้งานที่สถานีไฟฟ้านครราชสีมา 8</td>
+            <td class="views-field views-field-budget">12,500,000.00</td>
+            <td class="views-field views-field-publish-date">01/09/2564</td>
+            <td class="views-field views-field-deadline">15/09/2564</td>
+            <td class="views-field views-field-download"><a href="tor_samples/PEA-TDDP.2(A)-082-2564.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-2 even">
+            <td class="views-field views-field-counter">2</td>
+            <td class="views-field views-field-ref-no">PEA-M(G)-138/2564</td>
+            <td class="views-field views-field-title">จัดซื้อวัตถุดิบรองกลุ่มที่ 4 ให้แผนกโรงงานผลิตภัณฑ์คอนกรีต</td>
+            <td class="views-field views-field-budget">8,750,000.00</td>
+            <td class="views-field views-field-publish-date">08/10/2564</td>
+            <td class="views-field views-field-deadline">22/10/2564</td>
+            <td class="views-field views-field-download"><a href="tor_samples/PEA-M(G)-138-2564.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-3 odd">
+            <td class="views-field views-field-counter">3</td>
+            <td class="views-field views-field-ref-no">PEA-SMC-CM-08-2020</td>
+            <td class="views-field views-field-title">งานจ้างจัดหาพร้อมติดตั้งอุปกรณ์ควบคุมในระบบจำหน่าย</td>
+            <td class="views-field views-field-budget">45,000,000.00</td>
+            <td class="views-field views-field-publish-date">15/06/2563</td>
+            <td class="views-field views-field-deadline">30/06/2563</td>
+            <td class="views-field views-field-download"><a href="tor_samples/PEA-SMC-CM-08-2020.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-4 even">
+            <td class="views-field views-field-counter">4</td>
+            <td class="views-field views-field-ref-no">PEA-PWA-2566-001</td>
+            <td class="views-field views-field-title">โครงการเปลี่ยนสายไฟใต้ดิน เขตเมืองพัทยา</td>
+            <td class="views-field views-field-budget">180,000,000.00</td>
+            <td class="views-field views-field-publish-date">01/02/2566</td>
+            <td class="views-field views-field-deadline">28/02/2566</td>
+            <td class="views-field views-field-download"><a href="tor_samples/PEA-LONG-2566-200pages.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-5 odd">
+            <td class="views-field views-field-counter">5</td>
+            <td class="views-field views-field-ref-no">PEA-SG-2567-PHASE2</td>
+            <td class="views-field views-field-title">โครงการ Smart Grid เฟส 2</td>
+            <td class="views-field views-field-budget">320,000,000.00</td>
+            <td class="views-field views-field-publish-date">01/03/2567</td>
+            <td class="views-field views-field-deadline">15/03/2567</td>
+            <td class="views-field views-field-download"><a href="tor_samples/PEA-MULTI-2567-bundle.zip" class="tor-download">ดาวน์โหลด (ZIP)</a></td>
+          </tr>
+          <!-- Rows 6-20: Dummy data (no real files) -->
+          <tr class="views-row views-row-6 even">
+            <td>6</td><td>PEA-NE-2567-015</td>
+            <td>จัดซื้อหม้อแปลงไฟฟ้า 22 kV ขนาด 100-1000 kVA</td>
+            <td class="views-field-budget">28,500,000.00</td>
+            <td>10/01/2567</td><td>25/01/2567</td>
+            <td><a href="tor_samples/PEA-NE-2567-015.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-7 odd">
+            <td>7</td><td>PEA-SE-2567-022</td>
+            <td>งานจ้างก่อสร้างสายส่ง 115 kV สถานีไฟฟ้าบ้านบึง-ศรีราชา</td>
+            <td class="views-field-budget">156,000,000.00</td>
+            <td>15/01/2567</td><td>30/01/2567</td>
+            <td><a href="tor_samples/PEA-SE-2567-022.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-8 even">
+            <td>8</td><td>PEA-CW-2567-008</td>
+            <td>จัดซื้อเสา คอร. ขนาด 12 เมตร</td>
+            <td class="views-field-budget">15,200,000.00</td>
+            <td>20/01/2567</td><td>05/02/2567</td>
+            <td><a href="tor_samples/PEA-CW-2567-008.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-9 odd">
+            <td>9</td><td>PEA-NW-2567-003</td>
+            <td>จัดซื้อมิเตอร์ไฟฟ้า 1 เฟส และ 3 เฟส</td>
+            <td class="views-field-budget">42,800,000.00</td>
+            <td>22/01/2567</td><td>08/02/2567</td>
+            <td><a href="tor_samples/PEA-NW-2567-003.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-10 even">
+            <td>10</td><td>PEA-SO-2567-011</td>
+            <td>งานจ้างติดตั้งระบบ SCADA สถานีไฟฟ้าสุราษฎร์ธานี</td>
+            <td class="views-field-budget">68,000,000.00</td>
+            <td>25/01/2567</td><td>10/02/2567</td>
+            <td><a href="tor_samples/PEA-SO-2567-011.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-11 odd">
+            <td>11</td><td>PEA-CE-2567-019</td>
+            <td>จัดซื้อสายทองแดง THW ขนาดต่างๆ</td>
+            <td class="views-field-budget">9,400,000.00</td>
+            <td>01/02/2567</td><td>15/02/2567</td>
+            <td><a href="tor_samples/PEA-CE-2567-019.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-12 even">
+            <td>12</td><td>PEA-NE-2567-025</td>
+            <td>งานจ้างปรับปรุงระบบจำหน่ายแรงสูง อ.เมืองขอนแก่น</td>
+            <td class="views-field-budget">85,000,000.00</td>
+            <td>05/02/2567</td><td>20/02/2567</td>
+            <td><a href="tor_samples/PEA-NE-2567-025.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-13 odd">
+            <td>13</td><td>PEA-SE-2567-030</td>
+            <td>จัดซื้อ Recloser 22 kV แบบ 3 เฟส</td>
+            <td class="views-field-budget">22,000,000.00</td>
+            <td>08/02/2567</td><td>22/02/2567</td>
+            <td><a href="tor_samples/PEA-SE-2567-030.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-14 even">
+            <td>14</td><td>PEA-CW-2567-014</td>
+            <td>งานจ้างก่อสร้างสถานีไฟฟ้าย่อย 22 kV บางแสน</td>
+            <td class="views-field-budget">245,000,000.00</td>
+            <td>10/02/2567</td><td>28/02/2567</td>
+            <td><a href="tor_samples/PEA-CW-2567-014.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-15 odd">
+            <td>15</td><td>PEA-NW-2567-009</td>
+            <td>จัดซื้อลูกถ้วยพอร์สเลนชนิดต่างๆ</td>
+            <td class="views-field-budget">11,600,000.00</td>
+            <td>12/02/2567</td><td>26/02/2567</td>
+            <td><a href="tor_samples/PEA-NW-2567-009.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-16 even">
+            <td>16</td><td>PEA-SO-2567-018</td>
+            <td>จัดซื้ออุปกรณ์ป้องกันฟ้าผ่า (Lightning Arrester) 22 kV</td>
+            <td class="views-field-budget">7,300,000.00</td>
+            <td>15/02/2567</td><td>01/03/2567</td>
+            <td><a href="tor_samples/PEA-SO-2567-018.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-17 odd">
+            <td>17</td><td>PEA-CE-2567-027</td>
+            <td>งานจ้างเปลี่ยนเสาไฟฟ้าแรงสูง อ.เมืองนครสวรรค์</td>
+            <td class="views-field-budget">35,500,000.00</td>
+            <td>18/02/2567</td><td>05/03/2567</td>
+            <td><a href="tor_samples/PEA-CE-2567-027.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-18 even">
+            <td>18</td><td>PEA-NE-2567-033</td>
+            <td>จัดซื้อสายเคเบิลใต้ดิน XLPE 22 kV</td>
+            <td class="views-field-budget">52,000,000.00</td>
+            <td>20/02/2567</td><td>08/03/2567</td>
+            <td><a href="tor_samples/PEA-NE-2567-033.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-19 odd">
+            <td>19</td><td>PEA-SE-2567-041</td>
+            <td>งานจ้างติดตั้งระบบ Solar Rooftop สำนักงาน กฟภ.</td>
+            <td class="views-field-budget">18,900,000.00</td>
+            <td>22/02/2567</td><td>10/03/2567</td>
+            <td><a href="tor_samples/PEA-SE-2567-041.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+          <tr class="views-row views-row-20 even">
+            <td>20</td><td>PEA-CW-2567-020</td>
+            <td>จัดซื้อคอนสื่อสารและอุปกรณ์ประกอบสาย</td>
+            <td class="views-field-budget">6,800,000.00</td>
+            <td>25/02/2567</td><td>12/03/2567</td>
+            <td><a href="tor_samples/PEA-CW-2567-020.pdf" class="tor-download">ดาวน์โหลด</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Pagination -->
+    <nav class="pager" role="navigation" aria-label="Pagination">
+      <ul class="pager__items js-pager__items">
+        <li class="pager__item pager__item--active"><span>1</span></li>
+        <li class="pager__item"><a href="?page=1">2</a></li>
+        <li class="pager__item"><a href="?page=2">3</a></li>
+        <li class="pager__item"><a href="?page=3">4</a></li>
+        <li class="pager__item"><a href="?page=4">5</a></li>
+        <li class="pager__item pager__item--ellipsis"><span>…</span></li>
+        <li class="pager__item"><a href="?page=46">47</a></li>
+        <li class="pager__item pager__item--next"><a href="?page=1" rel="next">ถัดไป ›</a></li>
+        <li class="pager__item pager__item--last"><a href="?page=46">สุดท้าย »</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="footer">
+    <p>การไฟฟ้าส่วนภูมิภาค (กฟภ.) — Provincial Electricity Authority (PEA)</p>
+    <p>200 ถนนงามวงศ์วาน แขวงลาดยาว เขตจตุจักร กรุงเทพฯ 10900</p>
+    <p>⚠️ หน้านี้เป็น synthetic snapshot สำหรับ engineering challenge เท่านั้น ไม่ใช่ข้อมูลจริงจาก กฟภ.</p>
+  </div>
+</body>
+</html>

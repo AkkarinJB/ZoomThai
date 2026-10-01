@@ -31,7 +31,7 @@ services:
       - "3000:3000"
     environment:
       - DATABASE_URL=postgres://admin:password@db:5432/zoomthai
-      - OPENAI_API_KEY=${OPENAI_API_KEY} 
+      - GEMINI_API_KEY=${GEMINI_API_KEY} 
     volumes:
       - ./extraction:/app/extraction
       - ./adapters:/app/adapters

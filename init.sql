@@ -25,6 +25,13 @@ CREATE TABLE procurement_items (
     total_price_estimate NUMERIC(15, 2)
 );
 
+CREATE TABLE document_chunks (
+    id VARCHAR(255) PRIMARY KEY,
+    announcement_id VARCHAR(50) REFERENCES procurement_announcements(announcement_id) ON DELETE CASCADE,
+    content TEXT NOT NULL,
+    embedding VECTOR(768)
+);
+
 CREATE TABLE embeddings (
     id SERIAL PRIMARY KEY,
     announcement_id VARCHAR(50) REFERENCES procurement_announcements(announcement_id) ON DELETE CASCADE,

@@ -1,70 +1,111 @@
+import os
+import uuid
+from config import settings
+from google.genai import Client
 import psycopg2
-from datetime import datetime
-from pdf_parser import TORExtractor
+from extractors.plumber import PlumberExtractionStrategy
+from extractors.gemini import VLMExtractionStrategy
+from orchestrator import TORExtractorOrchestrator
 
-DB_URL = "postgresql://admin:password@localhost:5432/zoomthai"
+def chunk_text(text: str, chunk_size: int = 500, overlap: int = 50) -> list[str]:
+    """ฟังก์ชันสำหรับตัดแบ่งข้อความยาวๆ เป็นชิ้นย่อยๆ (Chunks)"""
+    chunks = []
+    start = 0
+    while start < len(text):
+        end = start + chunk_size
+        chunks.append(text[start:end])
+        start += chunk_size - overlap
+    return chunks
 
-def seed_data():
-    print("1. กำลังสกัดข้อมูลจาก PDF...")
-    extractor = TORExtractor()
-    
-    pdf_path = "fixtures/tor_samples/PEA-TDDP.2(A)-082-2564.pdf"
-    
-    try:
-        result = extractor.extract_document(pdf_path)
-        print(f"สกัดได้ {len(result['items'])} รายการ confidence: {result['extraction_confidence']['items_table']})")
-    except Exception as e:
-        print(f"ไม่สามารถอ่าน PDF ได้ : {e}")
-        return  
-    #test
-    announcement_id = "PEA-TDDP.2(A)-082/2564"
-    
-    print("2. กำลังเชื่อมต่อ Database...")
-    conn = psycopg2.connect(DB_URL)
+def process_and_store_vectors(announcement_id: str, full_text: str, vlm_client: Client):
+    print(f"กำลังสร้าง Vector Embeddings สำหรับประกาศ: {announcement_id}...")
+    chunks = chunk_text(full_text)
+    print(f"แบ่งข้อความได้ทั้งหมด {len(chunks)} ชิ้น (Chunks)")
+
+    db_url = os.getenv("DATABASE_URL", "postgresql://admin:password@localhost:5432/zoomthai")
+    conn = psycopg2.connect(db_url)
     cursor = conn.cursor()
 
     try:
-        print("3. กำลังบันทึกข้อมูลส่วนหัวประกาศ...")
-        cursor.execute("""
-            INSERT INTO procurement_announcements 
-            (announcement_id, agency, title, method, fiscal_year, budget_amount, submission_deadline)
-            VALUES (%s, %s, %s, %s, %s, %s, %s)
-            ON CONFLICT (announcement_id) DO NOTHING;
-        """, (
-            announcement_id, 
-            "PEA", 
-            "จัดซื้ออุปกรณ์สายไฟ สำหรับใช้งานที่สถานีไฟฟ้านครราชสีมา 8", 
-            "e-bidding", 
-            2564, 
-            12500000.00, 
-            datetime.fromisoformat("2021-09-15T16:30:00+07:00")
-        ))
+        for index, chunk in enumerate(chunks):
+            chunk_id = f"{announcement_id}-chunk-{index}-{uuid.uuid4().hex[:6]}"
 
-        print("4. กำลังบันทึกข้อมูลตารางพัสดุ...")
-        for item in result["items"]:
-            cursor.execute("""
-                INSERT INTO procurement_items 
-                (announcement_id, line_no, item_code, description, quantity, unit, unit_price_estimate, total_price_estimate)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
-            """, (
-                announcement_id,
-                item["line_no"],
-                item.get("item_code", ""),
-                item["description"],
-                item["quantity"],
-                item["unit"],
-                item["unit_price_estimate"],
-                item["total_price_estimate"]
-            ))
+            response = vlm_client.models.embed_content(
+                model="gemini-embedding-001", 
+                contents=chunk
+            )
+            vector_values = response.embeddings[0].values
+            vector_str = f"[{','.join(map(str, vector_values))}]"
 
+            cursor.execute(
+                """
+                INSERT INTO document_chunks (id, announcement_id, content, embedding)
+                VALUES (%s, %s, %s, %s::vector)
+                ON CONFLICT (id) DO UPDATE 
+                SET content = EXCLUDED.content, embedding = EXCLUDED.embedding;
+                """,
+                (chunk_id, announcement_id, chunk, vector_str)
+            )
+        
         conn.commit()
-        print("บันทึกข้อมูลสำเร็จทั้งหมด!")
+        print(" บันทึกข้อมูล Vector ลงตาราง document_chunks สำเร็จเรียบร้อย!")
+
     except Exception as e:
         conn.rollback()
-        print(f"Database error: {e}")
+        print(f" เกิดข้อผิดพลาดในการบันทึก Vector: {e}")
     finally:
         cursor.close()
         conn.close()
 
+def main():
+    if not settings.API_KEY:
+        print("Error: GEMINI_API_KEY not found in .env file")
+        return
+
+    vlm_client = Client(api_key=settings.API_KEY)
+    
+    plumber_strategy = PlumberExtractionStrategy()
+    gemini_strategy = VLMExtractionStrategy(vlm_client)
+    
+    extractor = TORExtractorOrchestrator(
+        primary_strategy=plumber_strategy,
+        fallback_strategy=gemini_strategy,
+        threshold=settings.CONFIDENCE_THRESHOLD
+    )
+    
+    pdf_path = "fixtures/tor_samples/PEA-TDDP.2(A)-082-2564.pdf"
+    
+    if not os.path.exists(pdf_path):
+        print(f"Error: PDF file not found at {pdf_path}")
+        return
+        
+    print(f"Executing extraction on: {pdf_path}")
+    result = extractor.execute_extraction(pdf_path)
+    
+    print("\n--- Result ---")
+    print(f"Method Used: {result['extraction_method_used']}")
+    print(f"Confidence: {result['extraction_confidence']['items_table']}")
+    print(f"Number of Items Found: {len(result['items'])} items")
+
+    
+    if not result.get('items'):
+        print("Mocking items due to VLM failure...")
+        result['items'] = [{
+            "description": "22 kV XLPE Power Cable, 500 sq.mm.",
+            "quantity": 270.0,
+            "unit": "m",
+            "unit_price_estimate": 1000.0,
+            "total_price_estimate": 270000.0
+        }]
+
+    announcement_id = "PEA-TDDP.2(A)-082/2564" 
+    
+    full_text = f" {announcement_id} "
+    for item in result.get('items', []):
+        full_text += f"รายการ: {item.get('description', '')} จำนวน: {item.get('quantity', '')} {item.get('unit', '')} "
+
+    if full_text.strip():
+        process_and_store_vectors(announcement_id, full_text, vlm_client)
+
 if __name__ == "__main__":
-    seed_data()
+    main()

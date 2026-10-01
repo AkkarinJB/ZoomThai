@@ -1,0 +1,62 @@
+[
+  {
+    "type": "retrieval",
+    "question": "PEA ประกาศจัดซื้อสายไฟ 22kV ในปีงบ 2564 หรือไม่?",
+    "expected_answer": "PEA มีประกาศจัดซื้อสายไฟ 22kV ในปีงบ 2564"
+  },
+  {
+    "type": "retrieval",
+    "question": "การยื่นซองของประกาศ PEA-TDDP.2(A)-082/2564 ต้องทำภายในวันที่เท่าไร?",
+    "expected_answer": "15 กันยายน 2564"
+  },
+  {
+    "type": "retrieval",
+    "question": "มีรายการอะไรบ้างที่ PEA จัดซื้อในประกาศ PEA-TDDP.2(A)-082/2564?",
+    "expected_answer": "50 sq. mm. XLPE-insulated 22 kV stranded aluminum cable"
+  },
+  {
+    "type": "retrieval",
+    "question": "ราคาประเมินต่อหน่วยของสายไฟ 50 sq. mm. คือเท่าไร?",
+    "expected_answer": "145 บาท"
+  },
+  {
+    "type": "retrieval",
+    "question": "จำนวนสายไฟที่ PEA ต้องการคือเท่าไร?",
+    "expected_answer": "5,000 เมตร"
+  },
+  {
+    "type": "retrieval",
+    "question": "โครงการนี้ใช้วิธีจัดซื้อแบบใด?",
+    "expected_answer": "e-bidding"
+  },
+  {
+    "type": "aggregation",
+    "question": "มีกี่ประกาศที่จัดซื้อโดย PEA ในปีงบประมาณ 2564?",
+    "expected_answer": "1"
+  },
+  {
+    "type": "aggregation",
+    "question": "ผลรวมวงเงินงบประมาณของประกาศทั้งหมดเป็นเท่าไร?",
+    "expected_answer": "12500000"
+  },
+  {
+    "type": "aggregation",
+    "question": "หาจำนวนรายการพัสดุทั้งหมดในฐานข้อมูล",
+    "expected_answer": "1"
+  },
+  {
+    "type": "aggregation",
+    "question": "รวมราคาประมาณการรวมของพัสดุทั้งหมด",
+    "expected_answer": "725000"
+  },
+  {
+    "type": "unanswerable",
+    "question": "ใครเป็นผู้ชนะการประมูลโครงการ PEA-TDDP.2(A)-082/2564?",
+    "expected_answer": null
+  },
+  {
+    "type": "unanswerable",
+    "question": "สายไฟที่จัดซื้อจะนำไปติดตั้งที่ไหน?",
+    "expected_answer": null
+  }
+]

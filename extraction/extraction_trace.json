@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "line_no": 1,
+      "item_code": "MOCK-001",
+      "description": "Mock VLM Extracted Item",
+      "quantity": 100.0,
+      "unit": "ชุด",
+      "unit_price_estimate": 500.0,
+      "total_price_estimate": 50000.0
+    }
+  ],
+  "extraction_confidence": {
+    "items_table": 0.85
+  },
+  "extraction_method_used": [
+    "vlm_fallback"
+  ]
+}

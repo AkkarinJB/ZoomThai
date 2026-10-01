@@ -1,0 +1,3436 @@
+{
+  "PEA-TDDP.2(A)-082/2564": {
+    "agency": "PEA",
+    "title": "จัดซื้ออุปกรณ์สายไฟ สำหรับใช้งานที่สถานีไฟฟ้านครราชสีมา 8",
+    "method": "e-bidding",
+    "fiscal_year": 2564,
+    "budget_amount": 12500000,
+    "submission_deadline": "2021-09-15T16:30:00+07:00",
+    "items": [
+      {
+        "line_no": 1,
+        "item_code": "PEA-W-001",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 185 sq.mm",
+        "quantity": 8000,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 2000000.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "PEA-W-002",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 50 sq.mm",
+        "quantity": 12000,
+        "unit": "เมตร",
+        "unit_price_estimate": 95.0,
+        "total_price_estimate": 1140000.0
+      },
+      {
+        "line_no": 3,
+        "item_code": "PEA-W-003",
+        "description": "สายทองแดง THW 25 sq.mm",
+        "quantity": 5000,
+        "unit": "เมตร",
+        "unit_price_estimate": 128.0,
+        "total_price_estimate": 640000.0
+      },
+      {
+        "line_no": 4,
+        "item_code": "PEA-W-004",
+        "description": "สาย Drop Wire 2x10 sq.mm",
+        "quantity": 15000,
+        "unit": "เมตร",
+        "unit_price_estimate": 42.0,
+        "total_price_estimate": 630000.0
+      },
+      {
+        "line_no": 5,
+        "item_code": "PEA-W-005",
+        "description": "ลูกถ้วย Line Post Insulator 22 kV",
+        "quantity": 600,
+        "unit": "ตัว",
+        "unit_price_estimate": 2800.0,
+        "total_price_estimate": 1680000.0
+      },
+      {
+        "line_no": 6,
+        "item_code": "PEA-W-006",
+        "description": "ลูกถ้วย Pin Insulator 22 kV",
+        "quantity": 1000,
+        "unit": "ตัว",
+        "unit_price_estimate": 1500.0,
+        "total_price_estimate": 1500000.0
+      },
+      {
+        "line_no": 7,
+        "item_code": "PEA-W-007",
+        "description": "เคเบิลสเปเซอร์ 22 kV",
+        "quantity": 800,
+        "unit": "ชุด",
+        "unit_price_estimate": 950.0,
+        "total_price_estimate": 760000.0
+      },
+      {
+        "line_no": 8,
+        "item_code": "PEA-W-008",
+        "description": "Dead End Clamp สำหรับสาย 185 sq.mm",
+        "quantity": 300,
+        "unit": "ชุด",
+        "unit_price_estimate": 3500.0,
+        "total_price_estimate": 1050000.0
+      },
+      {
+        "line_no": 9,
+        "item_code": "PEA-W-009",
+        "description": "คอนสื่อสาร แบบ 2 ทาง",
+        "quantity": 400,
+        "unit": "ชุด",
+        "unit_price_estimate": 4200.0,
+        "total_price_estimate": 1680000.0
+      },
+      {
+        "line_no": 10,
+        "item_code": "PEA-W-010",
+        "description": "เหล็กรัดเสา ขนาด 200 มม.",
+        "quantity": 1500,
+        "unit": "ตัว",
+        "unit_price_estimate": 280.0,
+        "total_price_estimate": 420000.0
+      },
+      {
+        "line_no": 11,
+        "item_code": "PEA-W-011",
+        "description": "สลักเกลียว M16x250 มม. พร้อมนัท",
+        "quantity": 3000,
+        "unit": "ชุด",
+        "unit_price_estimate": 45.0,
+        "total_price_estimate": 135000.0
+      },
+      {
+        "line_no": 12,
+        "item_code": "PEA-W-012",
+        "description": "หางปลา Compression Type 185 sq.mm",
+        "quantity": 500,
+        "unit": "ตัว",
+        "unit_price_estimate": 850.0,
+        "total_price_estimate": 425000.0
+      },
+      {
+        "line_no": 13,
+        "item_code": "PEA-W-013",
+        "description": "เทปพันสาย Self-Amalgamating Tape",
+        "quantity": 500,
+        "unit": "ม้วน",
+        "unit_price_estimate": 880.0,
+        "total_price_estimate": 440000.0
+      }
+    ],
+    "page_boundaries": {
+      "header": [
+        1,
+        1
+      ],
+      "conditions": [
+        2,
+        4
+      ],
+      "items_table": [
+        5,
+        7
+      ],
+      "signatures": [
+        8,
+        8
+      ]
+    }
+  },
+  "PEA-M(G)-138/2564": {
+    "agency": "PEA",
+    "title": "จัดซื้อวัตถุดิบรองกลุ่มที่ 4 ให้แผนกโรงงานผลิตภัณฑ์คอนกรีต",
+    "method": "e-bidding",
+    "fiscal_year": 2564,
+    "budget_amount": 8750000,
+    "submission_deadline": "2021-10-22T16:30:00+07:00",
+    "items": [
+      {
+        "line_no": 1,
+        "item_code": "PEA-C-001",
+        "description": "ปูนซีเมนต์ปอร์ตแลนด์ ประเภท 1",
+        "quantity": 5000,
+        "unit": "ถุง",
+        "unit_price_estimate": 125.0,
+        "total_price_estimate": 625000.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "PEA-C-002",
+        "description": "ทรายหยาบ",
+        "quantity": 3000,
+        "unit": "ลูกบาศก์เมตร",
+        "unit_price_estimate": 350.0,
+        "total_price_estimate": 1050000.0
+      },
+      {
+        "line_no": 3,
+        "item_code": "PEA-C-003",
+        "description": "หินย่อย เบอร์ 1",
+        "quantity": 2000,
+        "unit": "ลูกบาศก์เมตร",
+        "unit_price_estimate": 480.0,
+        "total_price_estimate": 960000.0
+      },
+      {
+        "line_no": 4,
+        "item_code": "PEA-C-004",
+        "description": "เหล็กเส้น DB 16 มม. SD40",
+        "quantity": 50000,
+        "unit": "กิโลกรัม",
+        "unit_price_estimate": 28.0,
+        "total_price_estimate": 1400000.0
+      },
+      {
+        "line_no": 5,
+        "item_code": "PEA-C-005",
+        "description": "เหล็กลวด WR 4 มม.",
+        "quantity": 30000,
+        "unit": "กิโลกรัม",
+        "unit_price_estimate": 25.0,
+        "total_price_estimate": 750000.0
+      },
+      {
+        "line_no": 6,
+        "item_code": "PEA-C-006",
+        "description": "แบบหล่อเสาไฟฟ้า คอร. ขนาด 12 ม.",
+        "quantity": 100,
+        "unit": "ชุด",
+        "unit_price_estimate": 35000.0,
+        "total_price_estimate": 3500000.0
+      },
+      {
+        "line_no": 7,
+        "item_code": "PEA-C-007",
+        "description": "น้ำยาบ่มคอนกรีต",
+        "quantity": 500,
+        "unit": "ถัง",
+        "unit_price_estimate": 930.0,
+        "total_price_estimate": 465000.0
+      }
+    ],
+    "page_boundaries": {
+      "header": [
+        1,
+        1
+      ],
+      "conditions": [
+        2,
+        3
+      ],
+      "items_table": [
+        4,
+        5
+      ],
+      "signatures": [
+        6,
+        6
+      ]
+    }
+  },
+  "PEA-SMC-CM-08-2020": {
+    "agency": "PEA",
+    "title": "งานจ้างจัดหาพร้อมติดตั้งอุปกรณ์ควบคุมในระบบจำหน่าย",
+    "method": "e-bidding",
+    "fiscal_year": 2563,
+    "budget_amount": 45000000,
+    "submission_deadline": "2020-06-30T16:30:00+07:00",
+    "items": [
+      {
+        "line_no": 1,
+        "item_code": "PEA-RC-001",
+        "description": "Recloser 630A 22 kV",
+        "quantity": 20,
+        "unit": "ชุด",
+        "unit_price_estimate": 450000.0,
+        "total_price_estimate": 9000000.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "PEA-RC-002",
+        "description": "ตู้ควบคุม Recloser พร้อมอุปกรณ์",
+        "quantity": 20,
+        "unit": "ชุด",
+        "unit_price_estimate": 180000.0,
+        "total_price_estimate": 3600000.0
+      },
+      {
+        "line_no": 3,
+        "item_code": "PEA-RC-003",
+        "description": "อุปกรณ์สื่อสาร RTU",
+        "quantity": 20,
+        "unit": "ชุด",
+        "unit_price_estimate": 95000.0,
+        "total_price_estimate": 1900000.0
+      },
+      {
+        "line_no": 4,
+        "item_code": "PEA-LB-001",
+        "description": "LBS 400A 22 kV",
+        "quantity": 30,
+        "unit": "ชุด",
+        "unit_price_estimate": 120000.0,
+        "total_price_estimate": 3600000.0
+      },
+      {
+        "line_no": 5,
+        "item_code": "PEA-LB-002",
+        "description": "ฐานรอง LBS พร้อมอุปกรณ์ยึด",
+        "quantity": 30,
+        "unit": "ชุด",
+        "unit_price_estimate": 25000.0,
+        "total_price_estimate": 750000.0
+      },
+      {
+        "line_no": 6,
+        "item_code": "PEA-LB-003",
+        "description": "อุปกรณ์ป้องกันฟ้าผ่า (Lightning Arrester)",
+        "quantity": 30,
+        "unit": "ชุด",
+        "unit_price_estimate": 15000.0,
+        "total_price_estimate": 450000.0
+      },
+      {
+        "line_no": 7,
+        "item_code": "PEA-RM-001",
+        "description": "RMU 3-way SF6 Insulated",
+        "quantity": 15,
+        "unit": "ชุด",
+        "unit_price_estimate": 580000.0,
+        "total_price_estimate": 8700000.0
+      },
+      {
+        "line_no": 8,
+        "item_code": "PEA-RM-002",
+        "description": "แท่นวาง RMU คอนกรีตเสริมเหล็ก",
+        "quantity": 15,
+        "unit": "ชุด",
+        "unit_price_estimate": 45000.0,
+        "total_price_estimate": 675000.0
+      },
+      {
+        "line_no": 9,
+        "item_code": "PEA-RM-003",
+        "description": "สายเคเบิลเชื่อมต่อ XLPE 22 kV",
+        "quantity": 1500,
+        "unit": "เมตร",
+        "unit_price_estimate": 850.0,
+        "total_price_estimate": 1275000.0
+      },
+      {
+        "line_no": 10,
+        "item_code": "PEA-FP-001",
+        "description": "FPI Sensor แบบ Overhead",
+        "quantity": 50,
+        "unit": "ชุด",
+        "unit_price_estimate": 85000.0,
+        "total_price_estimate": 4250000.0
+      },
+      {
+        "line_no": 11,
+        "item_code": "PEA-FP-002",
+        "description": "FPI Display Unit พร้อมสื่อสาร",
+        "quantity": 50,
+        "unit": "ชุด",
+        "unit_price_estimate": 45000.0,
+        "total_price_estimate": 2250000.0
+      },
+      {
+        "line_no": 12,
+        "item_code": "PEA-FP-003",
+        "description": "สาย Fiber Optic Single Mode",
+        "quantity": 5000,
+        "unit": "เมตร",
+        "unit_price_estimate": 35.0,
+        "total_price_estimate": 175000.0
+      },
+      {
+        "line_no": 13,
+        "item_code": "PEA-IS-001",
+        "description": "ค่าติดตั้ง Recloser พร้อมทดสอบ",
+        "quantity": 20,
+        "unit": "จุด",
+        "unit_price_estimate": 120000.0,
+        "total_price_estimate": 2400000.0
+      },
+      {
+        "line_no": 14,
+        "item_code": "PEA-IS-002",
+        "description": "ค่าติดตั้ง LBS พร้อมทดสอบ",
+        "quantity": 30,
+        "unit": "จุด",
+        "unit_price_estimate": 55000.0,
+        "total_price_estimate": 1650000.0
+      },
+      {
+        "line_no": 15,
+        "item_code": "PEA-IS-003",
+        "description": "ค่าติดตั้ง RMU พร้อมทดสอบ",
+        "quantity": 15,
+        "unit": "จุด",
+        "unit_price_estimate": 185000.0,
+        "total_price_estimate": 2775000.0
+      },
+      {
+        "line_no": 16,
+        "item_code": "PEA-IS-004",
+        "description": "ค่าทดสอบระบบรวม (System Integration Test)",
+        "quantity": 1,
+        "unit": "งาน",
+        "unit_price_estimate": 1550000.0,
+        "total_price_estimate": 1550000.0
+      }
+    ],
+    "page_boundaries": {
+      "header": [
+        1,
+        1
+      ],
+      "conditions": [
+        2,
+        5
+      ],
+      "items_table": [
+        6,
+        10
+      ],
+      "signatures": [
+        11,
+        12
+      ]
+    }
+  },
+  "PEA-PWA-2566-001": {
+    "agency": "PEA",
+    "title": "โครงการเปลี่ยนสายไฟใต้ดิน เขตเมืองพัทยา",
+    "method": "e-bidding",
+    "fiscal_year": 2566,
+    "budget_amount": 180000000,
+    "submission_deadline": "2023-02-28T16:30:00+07:00",
+    "items": [
+      {
+        "line_no": 1,
+        "item_code": "PEA-UG-001",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 400 sq.mm",
+        "quantity": 932,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 186400.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "PEA-UG-002",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 300 sq.mm",
+        "quantity": 2273,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 681900.0
+      },
+      {
+        "line_no": 3,
+        "item_code": "PEA-UG-003",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 240 sq.mm",
+        "quantity": 1163,
+        "unit": "เมตร",
+        "unit_price_estimate": 550.0,
+        "total_price_estimate": 639650.0
+      },
+      {
+        "line_no": 4,
+        "item_code": "PEA-UG-004",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 185 sq.mm",
+        "quantity": 4487,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 897400.0
+      },
+      {
+        "line_no": 5,
+        "item_code": "PEA-UG-005",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 120 sq.mm",
+        "quantity": 3476,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 695200.0
+      },
+      {
+        "line_no": 6,
+        "item_code": "PEA-UG-006",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 95 sq.mm",
+        "quantity": 787,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 236100.0
+      },
+      {
+        "line_no": 7,
+        "item_code": "PEA-UG-007",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 70 sq.mm",
+        "quantity": 4159,
+        "unit": "เมตร",
+        "unit_price_estimate": 450.0,
+        "total_price_estimate": 1871550.0
+      },
+      {
+        "line_no": 8,
+        "item_code": "PEA-UG-008",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 50 sq.mm",
+        "quantity": 4617,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 1154250.0
+      },
+      {
+        "line_no": 9,
+        "item_code": "PEA-UG-009",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 240 sq.mm",
+        "quantity": 4484,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 896800.0
+      },
+      {
+        "line_no": 10,
+        "item_code": "PEA-UG-010",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 185 sq.mm",
+        "quantity": 3699,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 924750.0
+      },
+      {
+        "line_no": 11,
+        "item_code": "PEA-UG-011",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 120 sq.mm",
+        "quantity": 73,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 21900.0
+      },
+      {
+        "line_no": 12,
+        "item_code": "PEA-UG-012",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 95 sq.mm",
+        "quantity": 1327,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 331750.0
+      },
+      {
+        "line_no": 13,
+        "item_code": "PEA-UG-013",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 70 sq.mm",
+        "quantity": 2807,
+        "unit": "เมตร",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 421050.0
+      },
+      {
+        "line_no": 14,
+        "item_code": "PEA-UG-014",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 50 sq.mm",
+        "quantity": 1783,
+        "unit": "เมตร",
+        "unit_price_estimate": 350.0,
+        "total_price_estimate": 624050.0
+      },
+      {
+        "line_no": 15,
+        "item_code": "PEA-UG-015",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 35 sq.mm",
+        "quantity": 2777,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 277700.0
+      },
+      {
+        "line_no": 16,
+        "item_code": "PEA-UG-016",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 25 sq.mm",
+        "quantity": 3132,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 313200.0
+      },
+      {
+        "line_no": 17,
+        "item_code": "PEA-UG-017",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 16 sq.mm",
+        "quantity": 2837,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 709250.0
+      },
+      {
+        "line_no": 18,
+        "item_code": "PEA-UG-018",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 400 sq.mm",
+        "quantity": 375,
+        "unit": "เมตร",
+        "unit_price_estimate": 1000.0,
+        "total_price_estimate": 375000.0
+      },
+      {
+        "line_no": 19,
+        "item_code": "PEA-UG-019",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 300 sq.mm",
+        "quantity": 4412,
+        "unit": "เมตร",
+        "unit_price_estimate": 550.0,
+        "total_price_estimate": 2426600.0
+      },
+      {
+        "line_no": 20,
+        "item_code": "PEA-UG-020",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 240 sq.mm",
+        "quantity": 3120,
+        "unit": "เมตร",
+        "unit_price_estimate": 500.0,
+        "total_price_estimate": 1560000.0
+      },
+      {
+        "line_no": 21,
+        "item_code": "PEA-UG-021",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 185 sq.mm",
+        "quantity": 2421,
+        "unit": "เมตร",
+        "unit_price_estimate": 1050.0,
+        "total_price_estimate": 2542050.0
+      },
+      {
+        "line_no": 22,
+        "item_code": "PEA-UG-022",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 120 sq.mm",
+        "quantity": 2982,
+        "unit": "เมตร",
+        "unit_price_estimate": 900.0,
+        "total_price_estimate": 2683800.0
+      },
+      {
+        "line_no": 23,
+        "item_code": "PEA-UG-023",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 95 sq.mm",
+        "quantity": 589,
+        "unit": "เมตร",
+        "unit_price_estimate": 500.0,
+        "total_price_estimate": 294500.0
+      },
+      {
+        "line_no": 24,
+        "item_code": "PEA-UG-024",
+        "description": "สาย Pilot Cable 7 แกน x 2.5 sq.mm",
+        "quantity": 1886,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 94300.0
+      },
+      {
+        "line_no": 25,
+        "item_code": "PEA-UG-025",
+        "description": "สาย Pilot Cable 12 แกน x 2.5 sq.mm",
+        "quantity": 673,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 67300.0
+      },
+      {
+        "line_no": 26,
+        "item_code": "PEA-UG-026",
+        "description": "สาย Pilot Cable 19 แกน x 2.5 sq.mm",
+        "quantity": 847,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 42350.0
+      },
+      {
+        "line_no": 27,
+        "item_code": "PEA-UG-027",
+        "description": "สาย Pilot Cable 24 แกน x 2.5 sq.mm",
+        "quantity": 3734,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 186700.0
+      },
+      {
+        "line_no": 28,
+        "item_code": "PEA-UG-028",
+        "description": "สายกราวด์ทองแดงเปลือย 95 sq.mm",
+        "quantity": 3008,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 150400.0
+      },
+      {
+        "line_no": 29,
+        "item_code": "PEA-UG-029",
+        "description": "สายกราวด์ทองแดงเปลือย 70 sq.mm",
+        "quantity": 2930,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 146500.0
+      },
+      {
+        "line_no": 30,
+        "item_code": "PEA-UG-030",
+        "description": "สายกราวด์ทองแดงเปลือย 50 sq.mm",
+        "quantity": 2207,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 220700.0
+      },
+      {
+        "line_no": 31,
+        "item_code": "PEA-UG-031",
+        "description": "สายกราวด์ทองแดงเปลือย 35 sq.mm",
+        "quantity": 604,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 60400.0
+      },
+      {
+        "line_no": 32,
+        "item_code": "PEA-UG-032",
+        "description": "สายกราวด์ทองแดงเปลือย 25 sq.mm",
+        "quantity": 1421,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 142100.0
+      },
+      {
+        "line_no": 33,
+        "item_code": "PEA-UG-033",
+        "description": "Straight Joint 22 kV ขนาด 400 sq.mm",
+        "quantity": 2025,
+        "unit": "ชุด",
+        "unit_price_estimate": 10800.0,
+        "total_price_estimate": 21870000.0
+      },
+      {
+        "line_no": 34,
+        "item_code": "PEA-UG-034",
+        "description": "Straight Joint 22 kV ขนาด 300 sq.mm",
+        "quantity": 3128,
+        "unit": "ชุด",
+        "unit_price_estimate": 12600.0,
+        "total_price_estimate": 39412800.0
+      },
+      {
+        "line_no": 35,
+        "item_code": "PEA-UG-035",
+        "description": "Straight Joint 22 kV ขนาด 240 sq.mm",
+        "quantity": 4582,
+        "unit": "ชุด",
+        "unit_price_estimate": 11750.0,
+        "total_price_estimate": 53838500.0
+      },
+      {
+        "line_no": 36,
+        "item_code": "PEA-UG-036",
+        "description": "Straight Joint 22 kV ขนาด 185 sq.mm",
+        "quantity": 2676,
+        "unit": "ชุด",
+        "unit_price_estimate": 22350.0,
+        "total_price_estimate": 59808600.0
+      },
+      {
+        "line_no": 37,
+        "item_code": "PEA-UG-037",
+        "description": "Straight Joint 22 kV ขนาด 120 sq.mm",
+        "quantity": 478,
+        "unit": "ชุด",
+        "unit_price_estimate": 11900.0,
+        "total_price_estimate": 5688200.0
+      },
+      {
+        "line_no": 38,
+        "item_code": "PEA-UG-038",
+        "description": "Straight Joint 22 kV ขนาด 95 sq.mm",
+        "quantity": 282,
+        "unit": "ชุด",
+        "unit_price_estimate": 21700.0,
+        "total_price_estimate": 6119400.0
+      },
+      {
+        "line_no": 39,
+        "item_code": "PEA-UG-039",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 400 sq.mm",
+        "quantity": 3306,
+        "unit": "ชุด",
+        "unit_price_estimate": 9200.0,
+        "total_price_estimate": 30415200.0
+      },
+      {
+        "line_no": 40,
+        "item_code": "PEA-UG-040",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 300 sq.mm",
+        "quantity": 1748,
+        "unit": "ชุด",
+        "unit_price_estimate": 16950.0,
+        "total_price_estimate": 29628600.0
+      },
+      {
+        "line_no": 41,
+        "item_code": "PEA-UG-041",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 240 sq.mm",
+        "quantity": 4666,
+        "unit": "ชุด",
+        "unit_price_estimate": 16500.0,
+        "total_price_estimate": 76989000.0
+      },
+      {
+        "line_no": 42,
+        "item_code": "PEA-UG-042",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 185 sq.mm",
+        "quantity": 2597,
+        "unit": "ชุด",
+        "unit_price_estimate": 8550.0,
+        "total_price_estimate": 22204350.0
+      },
+      {
+        "line_no": 43,
+        "item_code": "PEA-UG-043",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 120 sq.mm",
+        "quantity": 4109,
+        "unit": "ชุด",
+        "unit_price_estimate": 10750.0,
+        "total_price_estimate": 44171750.0
+      },
+      {
+        "line_no": 44,
+        "item_code": "PEA-UG-044",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 95 sq.mm",
+        "quantity": 3778,
+        "unit": "ชุด",
+        "unit_price_estimate": 7700.0,
+        "total_price_estimate": 29090600.0
+      },
+      {
+        "line_no": 45,
+        "item_code": "PEA-UG-045",
+        "description": "Termination Kit Indoor 22 kV ขนาด 400 sq.mm",
+        "quantity": 1163,
+        "unit": "ชุด",
+        "unit_price_estimate": 8100.0,
+        "total_price_estimate": 9420300.0
+      },
+      {
+        "line_no": 46,
+        "item_code": "PEA-UG-046",
+        "description": "Termination Kit Indoor 22 kV ขนาด 300 sq.mm",
+        "quantity": 4618,
+        "unit": "ชุด",
+        "unit_price_estimate": 11150.0,
+        "total_price_estimate": 51490700.0
+      },
+      {
+        "line_no": 47,
+        "item_code": "PEA-UG-047",
+        "description": "Termination Kit Indoor 22 kV ขนาด 240 sq.mm",
+        "quantity": 4808,
+        "unit": "ชุด",
+        "unit_price_estimate": 10000.0,
+        "total_price_estimate": 48080000.0
+      },
+      {
+        "line_no": 48,
+        "item_code": "PEA-UG-048",
+        "description": "Termination Kit Indoor 22 kV ขนาด 185 sq.mm",
+        "quantity": 4800,
+        "unit": "ชุด",
+        "unit_price_estimate": 9700.0,
+        "total_price_estimate": 46560000.0
+      },
+      {
+        "line_no": 49,
+        "item_code": "PEA-UG-049",
+        "description": "Termination Kit Indoor 22 kV ขนาด 120 sq.mm",
+        "quantity": 1816,
+        "unit": "ชุด",
+        "unit_price_estimate": 15950.0,
+        "total_price_estimate": 28965200.0
+      },
+      {
+        "line_no": 50,
+        "item_code": "PEA-UG-050",
+        "description": "Termination Kit Indoor 22 kV ขนาด 95 sq.mm",
+        "quantity": 1153,
+        "unit": "ชุด",
+        "unit_price_estimate": 10850.0,
+        "total_price_estimate": 12510050.0
+      },
+      {
+        "line_no": 51,
+        "item_code": "PEA-UG-051",
+        "description": "Cable Lug Compression Type 400 sq.mm",
+        "quantity": 764,
+        "unit": "ตัว",
+        "unit_price_estimate": 650.0,
+        "total_price_estimate": 496600.0
+      },
+      {
+        "line_no": 52,
+        "item_code": "PEA-UG-052",
+        "description": "Cable Lug Compression Type 300 sq.mm",
+        "quantity": 918,
+        "unit": "ตัว",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 229500.0
+      },
+      {
+        "line_no": 53,
+        "item_code": "PEA-UG-053",
+        "description": "Cable Lug Compression Type 240 sq.mm",
+        "quantity": 1330,
+        "unit": "ตัว",
+        "unit_price_estimate": 650.0,
+        "total_price_estimate": 864500.0
+      },
+      {
+        "line_no": 54,
+        "item_code": "PEA-UG-054",
+        "description": "Cable Lug Compression Type 185 sq.mm",
+        "quantity": 3478,
+        "unit": "ตัว",
+        "unit_price_estimate": 550.0,
+        "total_price_estimate": 1912900.0
+      },
+      {
+        "line_no": 55,
+        "item_code": "PEA-UG-055",
+        "description": "Cable Lug Compression Type 120 sq.mm",
+        "quantity": 3172,
+        "unit": "ตัว",
+        "unit_price_estimate": 400.0,
+        "total_price_estimate": 1268800.0
+      },
+      {
+        "line_no": 56,
+        "item_code": "PEA-UG-056",
+        "description": "Cable Lug Compression Type 95 sq.mm",
+        "quantity": 3854,
+        "unit": "ตัว",
+        "unit_price_estimate": 500.0,
+        "total_price_estimate": 1927000.0
+      },
+      {
+        "line_no": 57,
+        "item_code": "PEA-UG-057",
+        "description": "Cable Lug Compression Type 70 sq.mm",
+        "quantity": 4552,
+        "unit": "ตัว",
+        "unit_price_estimate": 700.0,
+        "total_price_estimate": 3186400.0
+      },
+      {
+        "line_no": 58,
+        "item_code": "PEA-UG-058",
+        "description": "Cable Lug Compression Type 50 sq.mm",
+        "quantity": 114,
+        "unit": "ตัว",
+        "unit_price_estimate": 600.0,
+        "total_price_estimate": 68400.0
+      },
+      {
+        "line_no": 59,
+        "item_code": "PEA-UG-059",
+        "description": "Heat Shrink Tube ขนาด 50 มม.",
+        "quantity": 958,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 191600.0
+      },
+      {
+        "line_no": 60,
+        "item_code": "PEA-UG-060",
+        "description": "Heat Shrink Tube ขนาด 70 มม.",
+        "quantity": 4418,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 883600.0
+      },
+      {
+        "line_no": 61,
+        "item_code": "PEA-UG-061",
+        "description": "Heat Shrink Tube ขนาด 90 มม.",
+        "quantity": 2806,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 280600.0
+      },
+      {
+        "line_no": 62,
+        "item_code": "PEA-UG-062",
+        "description": "Heat Shrink Tube ขนาด 120 มม.",
+        "quantity": 3581,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 358100.0
+      },
+      {
+        "line_no": 63,
+        "item_code": "PEA-UG-063",
+        "description": "Heat Shrink Tube ขนาด 150 มม.",
+        "quantity": 46,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 11500.0
+      },
+      {
+        "line_no": 64,
+        "item_code": "PEA-UG-064",
+        "description": "Lightning Arrester 22 kV 5 kA",
+        "quantity": 2177,
+        "unit": "ตัว",
+        "unit_price_estimate": 11750.0,
+        "total_price_estimate": 25579750.0
+      },
+      {
+        "line_no": 65,
+        "item_code": "PEA-UG-065",
+        "description": "Lightning Arrester 22 kV 10 kA",
+        "quantity": 1483,
+        "unit": "ตัว",
+        "unit_price_estimate": 7800.0,
+        "total_price_estimate": 11567400.0
+      },
+      {
+        "line_no": 66,
+        "item_code": "PEA-UG-066",
+        "description": "Lightning Arrester 22 kV 20 kA",
+        "quantity": 891,
+        "unit": "ตัว",
+        "unit_price_estimate": 10900.0,
+        "total_price_estimate": 9711900.0
+      },
+      {
+        "line_no": 67,
+        "item_code": "PEA-UG-067",
+        "description": "Surge Counter สำหรับ LA 22 kV",
+        "quantity": 2464,
+        "unit": "ตัว",
+        "unit_price_estimate": 4600.0,
+        "total_price_estimate": 11334400.0
+      },
+      {
+        "line_no": 68,
+        "item_code": "PEA-UG-068",
+        "description": "Surge Counter สำหรับ LA 33 kV",
+        "quantity": 4178,
+        "unit": "ตัว",
+        "unit_price_estimate": 4000.0,
+        "total_price_estimate": 16712000.0
+      },
+      {
+        "line_no": 69,
+        "item_code": "PEA-UG-069",
+        "description": "Fuse Cut Out 22 kV 100 A",
+        "quantity": 1272,
+        "unit": "ชุด",
+        "unit_price_estimate": 4200.0,
+        "total_price_estimate": 5342400.0
+      },
+      {
+        "line_no": 70,
+        "item_code": "PEA-UG-070",
+        "description": "Fuse Cut Out 22 kV 200 A",
+        "quantity": 1343,
+        "unit": "ชุด",
+        "unit_price_estimate": 4800.0,
+        "total_price_estimate": 6446400.0
+      },
+      {
+        "line_no": 71,
+        "item_code": "PEA-UG-071",
+        "description": "Fuse Link 6 A",
+        "quantity": 4364,
+        "unit": "ตัว",
+        "unit_price_estimate": 350.0,
+        "total_price_estimate": 1527400.0
+      },
+      {
+        "line_no": 72,
+        "item_code": "PEA-UG-072",
+        "description": "Fuse Link 10 A",
+        "quantity": 4926,
+        "unit": "ตัว",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 985200.0
+      },
+      {
+        "line_no": 73,
+        "item_code": "PEA-UG-073",
+        "description": "Fuse Link 15 A",
+        "quantity": 179,
+        "unit": "ตัว",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 26850.0
+      },
+      {
+        "line_no": 74,
+        "item_code": "PEA-UG-074",
+        "description": "Fuse Link 20 A",
+        "quantity": 2993,
+        "unit": "ตัว",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 897900.0
+      },
+      {
+        "line_no": 75,
+        "item_code": "PEA-UG-075",
+        "description": "Fuse Link 25 A",
+        "quantity": 2539,
+        "unit": "ตัว",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 507800.0
+      },
+      {
+        "line_no": 76,
+        "item_code": "PEA-UG-076",
+        "description": "Fuse Link 30 A",
+        "quantity": 1993,
+        "unit": "ตัว",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 597900.0
+      },
+      {
+        "line_no": 77,
+        "item_code": "PEA-UG-077",
+        "description": "Fuse Link 40 A",
+        "quantity": 665,
+        "unit": "ตัว",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 99750.0
+      },
+      {
+        "line_no": 78,
+        "item_code": "PEA-UG-078",
+        "description": "Fuse Link 50 A",
+        "quantity": 4001,
+        "unit": "ตัว",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 1200300.0
+      },
+      {
+        "line_no": 79,
+        "item_code": "PEA-UG-079",
+        "description": "Fuse Link 65 A",
+        "quantity": 4383,
+        "unit": "ตัว",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 1314900.0
+      },
+      {
+        "line_no": 80,
+        "item_code": "PEA-UG-080",
+        "description": "Fuse Link 80 A",
+        "quantity": 1071,
+        "unit": "ตัว",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 267750.0
+      },
+      {
+        "line_no": 81,
+        "item_code": "PEA-UG-081",
+        "description": "Fuse Link 100 A",
+        "quantity": 4523,
+        "unit": "ตัว",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 678450.0
+      },
+      {
+        "line_no": 82,
+        "item_code": "PEA-UG-082",
+        "description": "Ground Rod ทองแดง ยาว 1.5 ม.",
+        "quantity": 4342,
+        "unit": "ท่อน",
+        "unit_price_estimate": 1100.0,
+        "total_price_estimate": 4776200.0
+      },
+      {
+        "line_no": 83,
+        "item_code": "PEA-UG-083",
+        "description": "Ground Rod ทองแดง ยาว 2.4 ม.",
+        "quantity": 3486,
+        "unit": "ท่อน",
+        "unit_price_estimate": 1150.0,
+        "total_price_estimate": 4008900.0
+      },
+      {
+        "line_no": 84,
+        "item_code": "PEA-UG-084",
+        "description": "Ground Rod ทองแดง ยาว 3.0 ม.",
+        "quantity": 4437,
+        "unit": "ท่อน",
+        "unit_price_estimate": 1000.0,
+        "total_price_estimate": 4437000.0
+      },
+      {
+        "line_no": 85,
+        "item_code": "PEA-UG-085",
+        "description": "สายดิน PVC ขนาด 25 sq.mm",
+        "quantity": 1667,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 166700.0
+      },
+      {
+        "line_no": 86,
+        "item_code": "PEA-UG-086",
+        "description": "สายดิน PVC ขนาด 35 sq.mm",
+        "quantity": 3288,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 328800.0
+      },
+      {
+        "line_no": 87,
+        "item_code": "PEA-UG-087",
+        "description": "สายดิน PVC ขนาด 50 sq.mm",
+        "quantity": 3079,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 153950.0
+      },
+      {
+        "line_no": 88,
+        "item_code": "PEA-UG-088",
+        "description": "สายดิน PVC ขนาด 70 sq.mm",
+        "quantity": 4259,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 212950.0
+      },
+      {
+        "line_no": 89,
+        "item_code": "PEA-UG-089",
+        "description": "สายดิน PVC ขนาด 95 sq.mm",
+        "quantity": 2050,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 102500.0
+      },
+      {
+        "line_no": 90,
+        "item_code": "PEA-UG-090",
+        "description": "ท่อร้อยสาย HDPE ขนาด 110 มม.",
+        "quantity": 2789,
+        "unit": "เมตร",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 418350.0
+      },
+      {
+        "line_no": 91,
+        "item_code": "PEA-UG-091",
+        "description": "ท่อร้อยสาย HDPE ขนาด 160 มม.",
+        "quantity": 4557,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 911400.0
+      },
+      {
+        "line_no": 92,
+        "item_code": "PEA-UG-092",
+        "description": "ท่อร้อยสาย HDPE ขนาด 200 มม.",
+        "quantity": 1824,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 182400.0
+      },
+      {
+        "line_no": 93,
+        "item_code": "PEA-UG-093",
+        "description": "ท่อร้อยสาย HDPE ขนาด 250 มม.",
+        "quantity": 502,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 100400.0
+      },
+      {
+        "line_no": 94,
+        "item_code": "PEA-UG-094",
+        "description": "บ่อพัก คสล. ขนาด 80x80x100 ซม.",
+        "quantity": 277,
+        "unit": "บ่อ",
+        "unit_price_estimate": 22600.0,
+        "total_price_estimate": 6260200.0
+      },
+      {
+        "line_no": 95,
+        "item_code": "PEA-UG-095",
+        "description": "บ่อพัก คสล. ขนาด 100x100x120 ซม.",
+        "quantity": 600,
+        "unit": "บ่อ",
+        "unit_price_estimate": 16750.0,
+        "total_price_estimate": 10050000.0
+      },
+      {
+        "line_no": 96,
+        "item_code": "PEA-UG-096",
+        "description": "บ่อพัก คสล. ขนาด 120x120x150 ซม.",
+        "quantity": 2301,
+        "unit": "บ่อ",
+        "unit_price_estimate": 19350.0,
+        "total_price_estimate": 44524350.0
+      },
+      {
+        "line_no": 97,
+        "item_code": "PEA-UG-097",
+        "description": "ฝาบ่อเหล็กหล่อ ขนาด 80 ซม.",
+        "quantity": 1775,
+        "unit": "ชุด",
+        "unit_price_estimate": 6450.0,
+        "total_price_estimate": 11448750.0
+      },
+      {
+        "line_no": 98,
+        "item_code": "PEA-UG-098",
+        "description": "ฝาบ่อเหล็กหล่อ ขนาด 100 ซม.",
+        "quantity": 4697,
+        "unit": "ชุด",
+        "unit_price_estimate": 6650.0,
+        "total_price_estimate": 31235050.0
+      },
+      {
+        "line_no": 99,
+        "item_code": "PEA-UG-099",
+        "description": "ฝาบ่อเหล็กหล่อ ขนาด 120 ซม.",
+        "quantity": 2010,
+        "unit": "ชุด",
+        "unit_price_estimate": 7800.0,
+        "total_price_estimate": 15678000.0
+      },
+      {
+        "line_no": 100,
+        "item_code": "PEA-UG-100",
+        "description": "เสา คอร. สูง 8 ม.",
+        "quantity": 3354,
+        "unit": "ต้น",
+        "unit_price_estimate": 5100.0,
+        "total_price_estimate": 17105400.0
+      },
+      {
+        "line_no": 101,
+        "item_code": "PEA-UG-101",
+        "description": "เสา คอร. สูง 9 ม.",
+        "quantity": 814,
+        "unit": "ต้น",
+        "unit_price_estimate": 9100.0,
+        "total_price_estimate": 7407400.0
+      },
+      {
+        "line_no": 102,
+        "item_code": "PEA-UG-102",
+        "description": "เสา คอร. สูง 12 ม.",
+        "quantity": 2922,
+        "unit": "ต้น",
+        "unit_price_estimate": 7100.0,
+        "total_price_estimate": 20746200.0
+      },
+      {
+        "line_no": 103,
+        "item_code": "PEA-UG-103",
+        "description": "เสา คอร. สูง 14 ม.",
+        "quantity": 3845,
+        "unit": "ต้น",
+        "unit_price_estimate": 10850.0,
+        "total_price_estimate": 41718250.0
+      },
+      {
+        "line_no": 104,
+        "item_code": "PEA-UG-104",
+        "description": "คอนเหล็ก แบบ 1 ทาง",
+        "quantity": 463,
+        "unit": "ชุด",
+        "unit_price_estimate": 2650.0,
+        "total_price_estimate": 1226950.0
+      },
+      {
+        "line_no": 105,
+        "item_code": "PEA-UG-105",
+        "description": "คอนเหล็ก แบบ 2 ทาง",
+        "quantity": 826,
+        "unit": "ชุด",
+        "unit_price_estimate": 1000.0,
+        "total_price_estimate": 826000.0
+      },
+      {
+        "line_no": 106,
+        "item_code": "PEA-UG-106",
+        "description": "คอนเหล็ก แบบ 3 ทาง",
+        "quantity": 2799,
+        "unit": "ชุด",
+        "unit_price_estimate": 2950.0,
+        "total_price_estimate": 8257050.0
+      },
+      {
+        "line_no": 107,
+        "item_code": "PEA-UG-107",
+        "description": "คอนเหล็ก แบบ 4 ทาง",
+        "quantity": 915,
+        "unit": "ชุด",
+        "unit_price_estimate": 1500.0,
+        "total_price_estimate": 1372500.0
+      },
+      {
+        "line_no": 108,
+        "item_code": "PEA-UG-108",
+        "description": "ลวดสลิง ขนาด 10 มม.",
+        "quantity": 1578,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 78900.0
+      },
+      {
+        "line_no": 109,
+        "item_code": "PEA-UG-109",
+        "description": "ลวดสลิง ขนาด 12 มม.",
+        "quantity": 1168,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 58400.0
+      },
+      {
+        "line_no": 110,
+        "item_code": "PEA-UG-110",
+        "description": "ลวดสลิง ขนาด 16 มม.",
+        "quantity": 2301,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 115050.0
+      },
+      {
+        "line_no": 111,
+        "item_code": "PEA-UG-111",
+        "description": "น็อตตะขอ M12",
+        "quantity": 637,
+        "unit": "ตัว",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 31850.0
+      },
+      {
+        "line_no": 112,
+        "item_code": "PEA-UG-112",
+        "description": "น็อตตะขอ M16",
+        "quantity": 4528,
+        "unit": "ตัว",
+        "unit_price_estimate": 0.0,
+        "total_price_estimate": 0.0
+      },
+      {
+        "line_no": 113,
+        "item_code": "PEA-UG-113",
+        "description": "น็อตตะขอ M20",
+        "quantity": 4448,
+        "unit": "ตัว",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 222400.0
+      },
+      {
+        "line_no": 114,
+        "item_code": "PEA-UG-114",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 400 sq.mm แบบ A",
+        "quantity": 466,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 116500.0
+      },
+      {
+        "line_no": 115,
+        "item_code": "PEA-UG-115",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 300 sq.mm แบบ B",
+        "quantity": 1185,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 355500.0
+      },
+      {
+        "line_no": 116,
+        "item_code": "PEA-UG-116",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 240 sq.mm (มาตรฐานสูง)",
+        "quantity": 602,
+        "unit": "เมตร",
+        "unit_price_estimate": 550.0,
+        "total_price_estimate": 331100.0
+      },
+      {
+        "line_no": 117,
+        "item_code": "PEA-UG-117",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 185 sq.mm (ประหยัด)",
+        "quantity": 2251,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 562750.0
+      },
+      {
+        "line_no": 118,
+        "item_code": "PEA-UG-118",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 120 sq.mm แบบ A",
+        "quantity": 1736,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 347200.0
+      },
+      {
+        "line_no": 119,
+        "item_code": "PEA-UG-119",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 95 sq.mm แบบ B",
+        "quantity": 388,
+        "unit": "เมตร",
+        "unit_price_estimate": 400.0,
+        "total_price_estimate": 155200.0
+      },
+      {
+        "line_no": 120,
+        "item_code": "PEA-UG-120",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 70 sq.mm (มาตรฐานสูง)",
+        "quantity": 2090,
+        "unit": "เมตร",
+        "unit_price_estimate": 550.0,
+        "total_price_estimate": 1149500.0
+      },
+      {
+        "line_no": 121,
+        "item_code": "PEA-UG-121",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 50 sq.mm (ประหยัด)",
+        "quantity": 2353,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 588250.0
+      },
+      {
+        "line_no": 122,
+        "item_code": "PEA-UG-122",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 240 sq.mm แบบ A",
+        "quantity": 2264,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 566000.0
+      },
+      {
+        "line_no": 123,
+        "item_code": "PEA-UG-123",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 185 sq.mm แบบ B",
+        "quantity": 1890,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 567000.0
+      },
+      {
+        "line_no": 124,
+        "item_code": "PEA-UG-124",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 120 sq.mm (มาตรฐานสูง)",
+        "quantity": 66,
+        "unit": "เมตร",
+        "unit_price_estimate": 350.0,
+        "total_price_estimate": 23100.0
+      },
+      {
+        "line_no": 125,
+        "item_code": "PEA-UG-125",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 95 sq.mm (ประหยัด)",
+        "quantity": 689,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 137800.0
+      },
+      {
+        "line_no": 126,
+        "item_code": "PEA-UG-126",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 70 sq.mm แบบ A",
+        "quantity": 1416,
+        "unit": "เมตร",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 212400.0
+      },
+      {
+        "line_no": 127,
+        "item_code": "PEA-UG-127",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 50 sq.mm แบบ B",
+        "quantity": 889,
+        "unit": "เมตร",
+        "unit_price_estimate": 400.0,
+        "total_price_estimate": 355600.0
+      },
+      {
+        "line_no": 128,
+        "item_code": "PEA-UG-128",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 35 sq.mm (มาตรฐานสูง)",
+        "quantity": 1417,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 141700.0
+      },
+      {
+        "line_no": 129,
+        "item_code": "PEA-UG-129",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 25 sq.mm (ประหยัด)",
+        "quantity": 1581,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 158100.0
+      },
+      {
+        "line_no": 130,
+        "item_code": "PEA-UG-130",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 16 sq.mm แบบ A",
+        "quantity": 1450,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 362500.0
+      },
+      {
+        "line_no": 131,
+        "item_code": "PEA-UG-131",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 400 sq.mm แบบ B",
+        "quantity": 236,
+        "unit": "เมตร",
+        "unit_price_estimate": 1050.0,
+        "total_price_estimate": 247800.0
+      },
+      {
+        "line_no": 132,
+        "item_code": "PEA-UG-132",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 300 sq.mm (มาตรฐานสูง)",
+        "quantity": 2204,
+        "unit": "เมตร",
+        "unit_price_estimate": 700.0,
+        "total_price_estimate": 1542800.0
+      },
+      {
+        "line_no": 133,
+        "item_code": "PEA-UG-133",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 240 sq.mm (ประหยัด)",
+        "quantity": 1560,
+        "unit": "เมตร",
+        "unit_price_estimate": 600.0,
+        "total_price_estimate": 936000.0
+      },
+      {
+        "line_no": 134,
+        "item_code": "PEA-UG-134",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 185 sq.mm แบบ A",
+        "quantity": 1209,
+        "unit": "เมตร",
+        "unit_price_estimate": 1150.0,
+        "total_price_estimate": 1390350.0
+      },
+      {
+        "line_no": 135,
+        "item_code": "PEA-UG-135",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 120 sq.mm แบบ B",
+        "quantity": 1529,
+        "unit": "เมตร",
+        "unit_price_estimate": 1100.0,
+        "total_price_estimate": 1681900.0
+      },
+      {
+        "line_no": 136,
+        "item_code": "PEA-UG-136",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 95 sq.mm (มาตรฐานสูง)",
+        "quantity": 314,
+        "unit": "เมตร",
+        "unit_price_estimate": 450.0,
+        "total_price_estimate": 141300.0
+      },
+      {
+        "line_no": 137,
+        "item_code": "PEA-UG-137",
+        "description": "สาย Pilot Cable 7 แกน x 2.5 sq.mm (ประหยัด)",
+        "quantity": 974,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 48700.0
+      },
+      {
+        "line_no": 138,
+        "item_code": "PEA-UG-138",
+        "description": "สาย Pilot Cable 12 แกน x 2.5 sq.mm แบบ A",
+        "quantity": 369,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 36900.0
+      },
+      {
+        "line_no": 139,
+        "item_code": "PEA-UG-139",
+        "description": "สาย Pilot Cable 19 แกน x 2.5 sq.mm แบบ B",
+        "quantity": 423,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 21150.0
+      },
+      {
+        "line_no": 140,
+        "item_code": "PEA-UG-140",
+        "description": "สาย Pilot Cable 24 แกน x 2.5 sq.mm (มาตรฐานสูง)",
+        "quantity": 1899,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 94950.0
+      },
+      {
+        "line_no": 141,
+        "item_code": "PEA-UG-141",
+        "description": "สายกราวด์ทองแดงเปลือย 95 sq.mm (ประหยัด)",
+        "quantity": 1519,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 75950.0
+      },
+      {
+        "line_no": 142,
+        "item_code": "PEA-UG-142",
+        "description": "สายกราวด์ทองแดงเปลือย 70 sq.mm แบบ A",
+        "quantity": 1473,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 73650.0
+      },
+      {
+        "line_no": 143,
+        "item_code": "PEA-UG-143",
+        "description": "สายกราวด์ทองแดงเปลือย 50 sq.mm แบบ B",
+        "quantity": 1118,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 111800.0
+      },
+      {
+        "line_no": 144,
+        "item_code": "PEA-UG-144",
+        "description": "สายกราวด์ทองแดงเปลือย 35 sq.mm (มาตรฐานสูง)",
+        "quantity": 322,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 32200.0
+      },
+      {
+        "line_no": 145,
+        "item_code": "PEA-UG-145",
+        "description": "สายกราวด์ทองแดงเปลือย 25 sq.mm (ประหยัด)",
+        "quantity": 746,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 74600.0
+      },
+      {
+        "line_no": 146,
+        "item_code": "PEA-UG-146",
+        "description": "Straight Joint 22 kV ขนาด 400 sq.mm แบบ A",
+        "quantity": 1027,
+        "unit": "ชุด",
+        "unit_price_estimate": 13650.0,
+        "total_price_estimate": 14018550.0
+      },
+      {
+        "line_no": 147,
+        "item_code": "PEA-UG-147",
+        "description": "Straight Joint 22 kV ขนาด 300 sq.mm แบบ B",
+        "quantity": 1563,
+        "unit": "ชุด",
+        "unit_price_estimate": 10150.0,
+        "total_price_estimate": 15864450.0
+      },
+      {
+        "line_no": 148,
+        "item_code": "PEA-UG-148",
+        "description": "Straight Joint 22 kV ขนาด 240 sq.mm (มาตรฐานสูง)",
+        "quantity": 2325,
+        "unit": "ชุด",
+        "unit_price_estimate": 15250.0,
+        "total_price_estimate": 35456250.0
+      },
+      {
+        "line_no": 149,
+        "item_code": "PEA-UG-149",
+        "description": "Straight Joint 22 kV ขนาด 185 sq.mm (ประหยัด)",
+        "quantity": 1339,
+        "unit": "ชุด",
+        "unit_price_estimate": 18700.0,
+        "total_price_estimate": 25039300.0
+      },
+      {
+        "line_no": 150,
+        "item_code": "PEA-UG-150",
+        "description": "Straight Joint 22 kV ขนาด 120 sq.mm แบบ A",
+        "quantity": 247,
+        "unit": "ชุด",
+        "unit_price_estimate": 12550.0,
+        "total_price_estimate": 3099850.0
+      },
+      {
+        "line_no": 151,
+        "item_code": "PEA-UG-151",
+        "description": "Straight Joint 22 kV ขนาด 95 sq.mm แบบ B",
+        "quantity": 144,
+        "unit": "ชุด",
+        "unit_price_estimate": 27500.0,
+        "total_price_estimate": 3960000.0
+      },
+      {
+        "line_no": 152,
+        "item_code": "PEA-UG-152",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 400 sq.mm (มาตรฐานสูง)",
+        "quantity": 1652,
+        "unit": "ชุด",
+        "unit_price_estimate": 11400.0,
+        "total_price_estimate": 18832800.0
+      },
+      {
+        "line_no": 153,
+        "item_code": "PEA-UG-153",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 300 sq.mm (ประหยัด)",
+        "quantity": 892,
+        "unit": "ชุด",
+        "unit_price_estimate": 16000.0,
+        "total_price_estimate": 14272000.0
+      },
+      {
+        "line_no": 154,
+        "item_code": "PEA-UG-154",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 240 sq.mm แบบ A",
+        "quantity": 2356,
+        "unit": "ชุด",
+        "unit_price_estimate": 20100.0,
+        "total_price_estimate": 47355600.0
+      },
+      {
+        "line_no": 155,
+        "item_code": "PEA-UG-155",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 185 sq.mm แบบ B",
+        "quantity": 1338,
+        "unit": "ชุด",
+        "unit_price_estimate": 8150.0,
+        "total_price_estimate": 10904700.0
+      },
+      {
+        "line_no": 156,
+        "item_code": "PEA-UG-156",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 120 sq.mm (มาตรฐานสูง)",
+        "quantity": 2100,
+        "unit": "ชุด",
+        "unit_price_estimate": 12100.0,
+        "total_price_estimate": 25410000.0
+      },
+      {
+        "line_no": 157,
+        "item_code": "PEA-UG-157",
+        "description": "Termination Kit Outdoor 22 kV ขนาด 95 sq.mm (ประหยัด)",
+        "quantity": 1884,
+        "unit": "ชุด",
+        "unit_price_estimate": 8750.0,
+        "total_price_estimate": 16485000.0
+      },
+      {
+        "line_no": 158,
+        "item_code": "PEA-UG-158",
+        "description": "Termination Kit Indoor 22 kV ขนาด 400 sq.mm แบบ A",
+        "quantity": 611,
+        "unit": "ชุด",
+        "unit_price_estimate": 7700.0,
+        "total_price_estimate": 4704700.0
+      },
+      {
+        "line_no": 159,
+        "item_code": "PEA-UG-159",
+        "description": "Termination Kit Indoor 22 kV ขนาด 300 sq.mm แบบ B",
+        "quantity": 2346,
+        "unit": "ชุด",
+        "unit_price_estimate": 9500.0,
+        "total_price_estimate": 22287000.0
+      },
+      {
+        "line_no": 160,
+        "item_code": "PEA-UG-160",
+        "description": "Termination Kit Indoor 22 kV ขนาด 240 sq.mm (มาตรฐานสูง)",
+        "quantity": 2407,
+        "unit": "ชุด",
+        "unit_price_estimate": 9300.0,
+        "total_price_estimate": 22385100.0
+      },
+      {
+        "line_no": 161,
+        "item_code": "PEA-UG-161",
+        "description": "Termination Kit Indoor 22 kV ขนาด 185 sq.mm (ประหยัด)",
+        "quantity": 2401,
+        "unit": "ชุด",
+        "unit_price_estimate": 11350.0,
+        "total_price_estimate": 27251350.0
+      },
+      {
+        "line_no": 162,
+        "item_code": "PEA-UG-162",
+        "description": "Termination Kit Indoor 22 kV ขนาด 120 sq.mm แบบ A",
+        "quantity": 912,
+        "unit": "ชุด",
+        "unit_price_estimate": 14950.0,
+        "total_price_estimate": 13634400.0
+      },
+      {
+        "line_no": 163,
+        "item_code": "PEA-UG-163",
+        "description": "Termination Kit Indoor 22 kV ขนาด 95 sq.mm แบบ B",
+        "quantity": 609,
+        "unit": "ชุด",
+        "unit_price_estimate": 9800.0,
+        "total_price_estimate": 5968200.0
+      },
+      {
+        "line_no": 164,
+        "item_code": "PEA-UG-164",
+        "description": "Cable Lug Compression Type 400 sq.mm (มาตรฐานสูง)",
+        "quantity": 398,
+        "unit": "ตัว",
+        "unit_price_estimate": 600.0,
+        "total_price_estimate": 238800.0
+      },
+      {
+        "line_no": 165,
+        "item_code": "PEA-UG-165",
+        "description": "Cable Lug Compression Type 300 sq.mm (ประหยัด)",
+        "quantity": 494,
+        "unit": "ตัว",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 148200.0
+      },
+      {
+        "line_no": 166,
+        "item_code": "PEA-UG-166",
+        "description": "Cable Lug Compression Type 240 sq.mm แบบ A",
+        "quantity": 692,
+        "unit": "ตัว",
+        "unit_price_estimate": 700.0,
+        "total_price_estimate": 484400.0
+      },
+      {
+        "line_no": 167,
+        "item_code": "PEA-UG-167",
+        "description": "Cable Lug Compression Type 185 sq.mm แบบ B",
+        "quantity": 1788,
+        "unit": "ตัว",
+        "unit_price_estimate": 450.0,
+        "total_price_estimate": 804600.0
+      },
+      {
+        "line_no": 168,
+        "item_code": "PEA-UG-168",
+        "description": "Cable Lug Compression Type 120 sq.mm (มาตรฐานสูง)",
+        "quantity": 1621,
+        "unit": "ตัว",
+        "unit_price_estimate": 400.0,
+        "total_price_estimate": 648400.0
+      },
+      {
+        "line_no": 169,
+        "item_code": "PEA-UG-169",
+        "description": "Cable Lug Compression Type 95 sq.mm (ประหยัด)",
+        "quantity": 1939,
+        "unit": "ตัว",
+        "unit_price_estimate": 400.0,
+        "total_price_estimate": 775600.0
+      },
+      {
+        "line_no": 170,
+        "item_code": "PEA-UG-170",
+        "description": "Cable Lug Compression Type 70 sq.mm แบบ A",
+        "quantity": 2292,
+        "unit": "ตัว",
+        "unit_price_estimate": 850.0,
+        "total_price_estimate": 1948200.0
+      },
+      {
+        "line_no": 171,
+        "item_code": "PEA-UG-171",
+        "description": "Cable Lug Compression Type 50 sq.mm แบบ B",
+        "quantity": 92,
+        "unit": "ตัว",
+        "unit_price_estimate": 750.0,
+        "total_price_estimate": 69000.0
+      },
+      {
+        "line_no": 172,
+        "item_code": "PEA-UG-172",
+        "description": "Heat Shrink Tube ขนาด 50 มม. (มาตรฐานสูง)",
+        "quantity": 484,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 121000.0
+      },
+      {
+        "line_no": 173,
+        "item_code": "PEA-UG-173",
+        "description": "Heat Shrink Tube ขนาด 70 มม. (ประหยัด)",
+        "quantity": 2239,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 559750.0
+      },
+      {
+        "line_no": 174,
+        "item_code": "PEA-UG-174",
+        "description": "Heat Shrink Tube ขนาด 90 มม. แบบ A",
+        "quantity": 1433,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 143300.0
+      },
+      {
+        "line_no": 175,
+        "item_code": "PEA-UG-175",
+        "description": "Heat Shrink Tube ขนาด 120 มม. แบบ B",
+        "quantity": 1789,
+        "unit": "เมตร",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 268350.0
+      },
+      {
+        "line_no": 176,
+        "item_code": "PEA-UG-176",
+        "description": "Heat Shrink Tube ขนาด 150 มม. (มาตรฐานสูง)",
+        "quantity": 62,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 18600.0
+      },
+      {
+        "line_no": 177,
+        "item_code": "PEA-UG-177",
+        "description": "Lightning Arrester 22 kV 5 kA (ประหยัด)",
+        "quantity": 1117,
+        "unit": "ตัว",
+        "unit_price_estimate": 9600.0,
+        "total_price_estimate": 10723200.0
+      },
+      {
+        "line_no": 178,
+        "item_code": "PEA-UG-178",
+        "description": "Lightning Arrester 22 kV 10 kA แบบ A",
+        "quantity": 759,
+        "unit": "ตัว",
+        "unit_price_estimate": 8500.0,
+        "total_price_estimate": 6451500.0
+      },
+      {
+        "line_no": 179,
+        "item_code": "PEA-UG-179",
+        "description": "Lightning Arrester 22 kV 20 kA แบบ B",
+        "quantity": 449,
+        "unit": "ตัว",
+        "unit_price_estimate": 11050.0,
+        "total_price_estimate": 4961450.0
+      },
+      {
+        "line_no": 180,
+        "item_code": "PEA-UG-180",
+        "description": "Surge Counter สำหรับ LA 22 kV (มาตรฐานสูง)",
+        "quantity": 1229,
+        "unit": "ตัว",
+        "unit_price_estimate": 4400.0,
+        "total_price_estimate": 5407600.0
+      },
+      {
+        "line_no": 181,
+        "item_code": "PEA-UG-181",
+        "description": "Surge Counter สำหรับ LA 33 kV (ประหยัด)",
+        "quantity": 2134,
+        "unit": "ตัว",
+        "unit_price_estimate": 5150.0,
+        "total_price_estimate": 10990100.0
+      },
+      {
+        "line_no": 182,
+        "item_code": "PEA-UG-182",
+        "description": "Fuse Cut Out 22 kV 100 A แบบ A",
+        "quantity": 633,
+        "unit": "ชุด",
+        "unit_price_estimate": 5250.0,
+        "total_price_estimate": 3323250.0
+      },
+      {
+        "line_no": 183,
+        "item_code": "PEA-UG-183",
+        "description": "Fuse Cut Out 22 kV 200 A แบบ B",
+        "quantity": 679,
+        "unit": "ชุด",
+        "unit_price_estimate": 5500.0,
+        "total_price_estimate": 3734500.0
+      },
+      {
+        "line_no": 184,
+        "item_code": "PEA-UG-184",
+        "description": "Fuse Link 6 A (มาตรฐานสูง)",
+        "quantity": 2219,
+        "unit": "ตัว",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 665700.0
+      },
+      {
+        "line_no": 185,
+        "item_code": "PEA-UG-185",
+        "description": "Fuse Link 10 A (ประหยัด)",
+        "quantity": 2507,
+        "unit": "ตัว",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 501400.0
+      },
+      {
+        "line_no": 186,
+        "item_code": "PEA-UG-186",
+        "description": "Fuse Link 15 A แบบ A",
+        "quantity": 139,
+        "unit": "ตัว",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 20850.0
+      },
+      {
+        "line_no": 187,
+        "item_code": "PEA-UG-187",
+        "description": "Fuse Link 20 A แบบ B",
+        "quantity": 1530,
+        "unit": "ตัว",
+        "unit_price_estimate": 350.0,
+        "total_price_estimate": 535500.0
+      },
+      {
+        "line_no": 188,
+        "item_code": "PEA-UG-188",
+        "description": "Fuse Link 25 A (มาตรฐานสูง)",
+        "quantity": 1279,
+        "unit": "ตัว",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 319750.0
+      },
+      {
+        "line_no": 189,
+        "item_code": "PEA-UG-189",
+        "description": "Fuse Link 30 A (ประหยัด)",
+        "quantity": 1042,
+        "unit": "ตัว",
+        "unit_price_estimate": 350.0,
+        "total_price_estimate": 364700.0
+      },
+      {
+        "line_no": 190,
+        "item_code": "PEA-UG-190",
+        "description": "Fuse Link 40 A แบบ A",
+        "quantity": 353,
+        "unit": "ตัว",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 35300.0
+      },
+      {
+        "line_no": 191,
+        "item_code": "PEA-UG-191",
+        "description": "Fuse Link 50 A แบบ B",
+        "quantity": 2042,
+        "unit": "ตัว",
+        "unit_price_estimate": 400.0,
+        "total_price_estimate": 816800.0
+      },
+      {
+        "line_no": 192,
+        "item_code": "PEA-UG-192",
+        "description": "Fuse Link 65 A (มาตรฐานสูง)",
+        "quantity": 2236,
+        "unit": "ตัว",
+        "unit_price_estimate": 400.0,
+        "total_price_estimate": 894400.0
+      },
+      {
+        "line_no": 193,
+        "item_code": "PEA-UG-193",
+        "description": "Fuse Link 80 A (ประหยัด)",
+        "quantity": 581,
+        "unit": "ตัว",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 174300.0
+      },
+      {
+        "line_no": 194,
+        "item_code": "PEA-UG-194",
+        "description": "Fuse Link 100 A แบบ A",
+        "quantity": 2303,
+        "unit": "ตัว",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 460600.0
+      },
+      {
+        "line_no": 195,
+        "item_code": "PEA-UG-195",
+        "description": "Ground Rod ทองแดง ยาว 1.5 ม. แบบ B",
+        "quantity": 2183,
+        "unit": "ท่อน",
+        "unit_price_estimate": 950.0,
+        "total_price_estimate": 2073850.0
+      },
+      {
+        "line_no": 196,
+        "item_code": "PEA-UG-196",
+        "description": "Ground Rod ทองแดง ยาว 2.4 ม. (มาตรฐานสูง)",
+        "quantity": 1782,
+        "unit": "ท่อน",
+        "unit_price_estimate": 1000.0,
+        "total_price_estimate": 1782000.0
+      },
+      {
+        "line_no": 197,
+        "item_code": "PEA-UG-197",
+        "description": "Ground Rod ทองแดง ยาว 3.0 ม. (ประหยัด)",
+        "quantity": 2268,
+        "unit": "ท่อน",
+        "unit_price_estimate": 800.0,
+        "total_price_estimate": 1814400.0
+      },
+      {
+        "line_no": 198,
+        "item_code": "PEA-UG-198",
+        "description": "สายดิน PVC ขนาด 25 sq.mm แบบ A",
+        "quantity": 858,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 85800.0
+      },
+      {
+        "line_no": 199,
+        "item_code": "PEA-UG-199",
+        "description": "สายดิน PVC ขนาด 35 sq.mm แบบ B",
+        "quantity": 1691,
+        "unit": "เมตร",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 253650.0
+      },
+      {
+        "line_no": 200,
+        "item_code": "PEA-UG-200",
+        "description": "สายดิน PVC ขนาด 50 sq.mm (มาตรฐานสูง)",
+        "quantity": 1556,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 77800.0
+      },
+      {
+        "line_no": 201,
+        "item_code": "PEA-UG-201",
+        "description": "สายดิน PVC ขนาด 70 sq.mm (ประหยัด)",
+        "quantity": 2174,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 108700.0
+      },
+      {
+        "line_no": 202,
+        "item_code": "PEA-UG-202",
+        "description": "สายดิน PVC ขนาด 95 sq.mm แบบ A",
+        "quantity": 1034,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 51700.0
+      },
+      {
+        "line_no": 203,
+        "item_code": "PEA-UG-203",
+        "description": "ท่อร้อยสาย HDPE ขนาด 110 มม. แบบ B",
+        "quantity": 1401,
+        "unit": "เมตร",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 210150.0
+      },
+      {
+        "line_no": 204,
+        "item_code": "PEA-UG-204",
+        "description": "ท่อร้อยสาย HDPE ขนาด 160 มม. (มาตรฐานสูง)",
+        "quantity": 2290,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 572500.0
+      },
+      {
+        "line_no": 205,
+        "item_code": "PEA-UG-205",
+        "description": "ท่อร้อยสาย HDPE ขนาด 200 มม. (ประหยัด)",
+        "quantity": 956,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 95600.0
+      },
+      {
+        "line_no": 206,
+        "item_code": "PEA-UG-206",
+        "description": "ท่อร้อยสาย HDPE ขนาด 250 มม. แบบ A",
+        "quantity": 287,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 57400.0
+      },
+      {
+        "line_no": 207,
+        "item_code": "PEA-UG-207",
+        "description": "บ่อพัก คสล. ขนาด 80x80x100 ซม. แบบ B",
+        "quantity": 176,
+        "unit": "บ่อ",
+        "unit_price_estimate": 29150.0,
+        "total_price_estimate": 5130400.0
+      },
+      {
+        "line_no": 208,
+        "item_code": "PEA-UG-208",
+        "description": "บ่อพัก คสล. ขนาด 100x100x120 ซม. (มาตรฐานสูง)",
+        "quantity": 329,
+        "unit": "บ่อ",
+        "unit_price_estimate": 16150.0,
+        "total_price_estimate": 5313350.0
+      },
+      {
+        "line_no": 209,
+        "item_code": "PEA-UG-209",
+        "description": "บ่อพัก คสล. ขนาด 120x120x150 ซม. (ประหยัด)",
+        "quantity": 1146,
+        "unit": "บ่อ",
+        "unit_price_estimate": 16600.0,
+        "total_price_estimate": 19023600.0
+      },
+      {
+        "line_no": 210,
+        "item_code": "PEA-UG-210",
+        "description": "ฝาบ่อเหล็กหล่อ ขนาด 80 ซม. แบบ A",
+        "quantity": 898,
+        "unit": "ชุด",
+        "unit_price_estimate": 5750.0,
+        "total_price_estimate": 5163500.0
+      },
+      {
+        "line_no": 211,
+        "item_code": "PEA-UG-211",
+        "description": "ฝาบ่อเหล็กหล่อ ขนาด 100 ซม. แบบ B",
+        "quantity": 2359,
+        "unit": "ชุด",
+        "unit_price_estimate": 5450.0,
+        "total_price_estimate": 12856550.0
+      },
+      {
+        "line_no": 212,
+        "item_code": "PEA-UG-212",
+        "description": "ฝาบ่อเหล็กหล่อ ขนาด 120 ซม. (มาตรฐานสูง)",
+        "quantity": 1038,
+        "unit": "ชุด",
+        "unit_price_estimate": 7950.0,
+        "total_price_estimate": 8252100.0
+      },
+      {
+        "line_no": 213,
+        "item_code": "PEA-UG-213",
+        "description": "เสา คอร. สูง 8 ม. (ประหยัด)",
+        "quantity": 1718,
+        "unit": "ต้น",
+        "unit_price_estimate": 6100.0,
+        "total_price_estimate": 10479800.0
+      },
+      {
+        "line_no": 214,
+        "item_code": "PEA-UG-214",
+        "description": "เสา คอร. สูง 9 ม. แบบ A",
+        "quantity": 429,
+        "unit": "ต้น",
+        "unit_price_estimate": 10050.0,
+        "total_price_estimate": 4311450.0
+      },
+      {
+        "line_no": 215,
+        "item_code": "PEA-UG-215",
+        "description": "เสา คอร. สูง 12 ม. แบบ B",
+        "quantity": 1488,
+        "unit": "ต้น",
+        "unit_price_estimate": 6100.0,
+        "total_price_estimate": 9076800.0
+      },
+      {
+        "line_no": 216,
+        "item_code": "PEA-UG-216",
+        "description": "เสา คอร. สูง 14 ม. (มาตรฐานสูง)",
+        "quantity": 1953,
+        "unit": "ต้น",
+        "unit_price_estimate": 9700.0,
+        "total_price_estimate": 18944100.0
+      },
+      {
+        "line_no": 217,
+        "item_code": "PEA-UG-217",
+        "description": "คอนเหล็ก แบบ 1 ทาง (ประหยัด)",
+        "quantity": 228,
+        "unit": "ชุด",
+        "unit_price_estimate": 3050.0,
+        "total_price_estimate": 695400.0
+      },
+      {
+        "line_no": 218,
+        "item_code": "PEA-UG-218",
+        "description": "คอนเหล็ก แบบ 2 ทาง แบบ A",
+        "quantity": 408,
+        "unit": "ชุด",
+        "unit_price_estimate": 1050.0,
+        "total_price_estimate": 428400.0
+      },
+      {
+        "line_no": 219,
+        "item_code": "PEA-UG-219",
+        "description": "คอนเหล็ก แบบ 3 ทาง แบบ B",
+        "quantity": 1445,
+        "unit": "ชุด",
+        "unit_price_estimate": 3150.0,
+        "total_price_estimate": 4551750.0
+      },
+      {
+        "line_no": 220,
+        "item_code": "PEA-UG-220",
+        "description": "คอนเหล็ก แบบ 4 ทาง (มาตรฐานสูง)",
+        "quantity": 498,
+        "unit": "ชุด",
+        "unit_price_estimate": 1900.0,
+        "total_price_estimate": 946200.0
+      },
+      {
+        "line_no": 221,
+        "item_code": "PEA-UG-221",
+        "description": "ลวดสลิง ขนาด 10 มม. (ประหยัด)",
+        "quantity": 831,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 41550.0
+      },
+      {
+        "line_no": 222,
+        "item_code": "PEA-UG-222",
+        "description": "ลวดสลิง ขนาด 12 มม. แบบ A",
+        "quantity": 602,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 30100.0
+      },
+      {
+        "line_no": 223,
+        "item_code": "PEA-UG-223",
+        "description": "ลวดสลิง ขนาด 16 มม. แบบ B",
+        "quantity": 1187,
+        "unit": "เมตร",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 59350.0
+      },
+      {
+        "line_no": 224,
+        "item_code": "PEA-UG-224",
+        "description": "น็อตตะขอ M12 (มาตรฐานสูง)",
+        "quantity": 352,
+        "unit": "ตัว",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 17600.0
+      },
+      {
+        "line_no": 225,
+        "item_code": "PEA-UG-225",
+        "description": "น็อตตะขอ M16 (ประหยัด)",
+        "quantity": 2313,
+        "unit": "ตัว",
+        "unit_price_estimate": 0.0,
+        "total_price_estimate": 0.0
+      },
+      {
+        "line_no": 226,
+        "item_code": "PEA-UG-226",
+        "description": "น็อตตะขอ M20 แบบ A",
+        "quantity": 2238,
+        "unit": "ตัว",
+        "unit_price_estimate": 50.0,
+        "total_price_estimate": 111900.0
+      },
+      {
+        "line_no": 227,
+        "item_code": "PEA-UG-227",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 400 sq.mm แบบ B",
+        "quantity": 503,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 100600.0
+      },
+      {
+        "line_no": 228,
+        "item_code": "PEA-UG-228",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 300 sq.mm (มาตรฐานสูง)",
+        "quantity": 1156,
+        "unit": "เมตร",
+        "unit_price_estimate": 350.0,
+        "total_price_estimate": 404600.0
+      },
+      {
+        "line_no": 229,
+        "item_code": "PEA-UG-229",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 240 sq.mm (ประหยัด)",
+        "quantity": 611,
+        "unit": "เมตร",
+        "unit_price_estimate": 500.0,
+        "total_price_estimate": 305500.0
+      },
+      {
+        "line_no": 230,
+        "item_code": "PEA-UG-230",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 185 sq.mm แบบ A",
+        "quantity": 2264,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 566000.0
+      },
+      {
+        "line_no": 231,
+        "item_code": "PEA-UG-231",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 120 sq.mm แบบ B",
+        "quantity": 1757,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 439250.0
+      },
+      {
+        "line_no": 232,
+        "item_code": "PEA-UG-232",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 95 sq.mm (มาตรฐานสูง)",
+        "quantity": 399,
+        "unit": "เมตร",
+        "unit_price_estimate": 350.0,
+        "total_price_estimate": 139650.0
+      },
+      {
+        "line_no": 233,
+        "item_code": "PEA-UG-233",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 70 sq.mm (ประหยัด)",
+        "quantity": 2093,
+        "unit": "เมตร",
+        "unit_price_estimate": 450.0,
+        "total_price_estimate": 941850.0
+      },
+      {
+        "line_no": 234,
+        "item_code": "PEA-UG-234",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 50 sq.mm แบบ A",
+        "quantity": 2356,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 471200.0
+      },
+      {
+        "line_no": 235,
+        "item_code": "PEA-UG-235",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 240 sq.mm แบบ B",
+        "quantity": 2255,
+        "unit": "เมตร",
+        "unit_price_estimate": 200.0,
+        "total_price_estimate": 451000.0
+      },
+      {
+        "line_no": 236,
+        "item_code": "PEA-UG-236",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 185 sq.mm (มาตรฐานสูง)",
+        "quantity": 1894,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 473500.0
+      },
+      {
+        "line_no": 237,
+        "item_code": "PEA-UG-237",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 120 sq.mm (ประหยัด)",
+        "quantity": 72,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 21600.0
+      },
+      {
+        "line_no": 238,
+        "item_code": "PEA-UG-238",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 95 sq.mm แบบ A",
+        "quantity": 686,
+        "unit": "เมตร",
+        "unit_price_estimate": 250.0,
+        "total_price_estimate": 171500.0
+      },
+      {
+        "line_no": 239,
+        "item_code": "PEA-UG-239",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 70 sq.mm แบบ B",
+        "quantity": 1411,
+        "unit": "เมตร",
+        "unit_price_estimate": 150.0,
+        "total_price_estimate": 211650.0
+      },
+      {
+        "line_no": 240,
+        "item_code": "PEA-UG-240",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 50 sq.mm (มาตรฐานสูง)",
+        "quantity": 936,
+        "unit": "เมตร",
+        "unit_price_estimate": 450.0,
+        "total_price_estimate": 421200.0
+      },
+      {
+        "line_no": 241,
+        "item_code": "PEA-UG-241",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 35 sq.mm (ประหยัด)",
+        "quantity": 1433,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 143300.0
+      },
+      {
+        "line_no": 242,
+        "item_code": "PEA-UG-242",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 25 sq.mm แบบ A",
+        "quantity": 1603,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 160300.0
+      },
+      {
+        "line_no": 243,
+        "item_code": "PEA-UG-243",
+        "description": "สายทองแดง XLPE 0.6/1 kV ขนาด 16 sq.mm แบบ B",
+        "quantity": 1445,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 433500.0
+      },
+      {
+        "line_no": 244,
+        "item_code": "PEA-UG-244",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 400 sq.mm (มาตรฐานสูง)",
+        "quantity": 221,
+        "unit": "เมตร",
+        "unit_price_estimate": 950.0,
+        "total_price_estimate": 209950.0
+      },
+      {
+        "line_no": 245,
+        "item_code": "PEA-UG-245",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 300 sq.mm (ประหยัด)",
+        "quantity": 2253,
+        "unit": "เมตร",
+        "unit_price_estimate": 700.0,
+        "total_price_estimate": 1577100.0
+      },
+      {
+        "line_no": 246,
+        "item_code": "PEA-UG-246",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 240 sq.mm แบบ A",
+        "quantity": 1570,
+        "unit": "เมตร",
+        "unit_price_estimate": 550.0,
+        "total_price_estimate": 863500.0
+      },
+      {
+        "line_no": 247,
+        "item_code": "PEA-UG-247",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 185 sq.mm แบบ B",
+        "quantity": 1219,
+        "unit": "เมตร",
+        "unit_price_estimate": 1250.0,
+        "total_price_estimate": 1523750.0
+      },
+      {
+        "line_no": 248,
+        "item_code": "PEA-UG-248",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 120 sq.mm (มาตรฐานสูง)",
+        "quantity": 1495,
+        "unit": "เมตร",
+        "unit_price_estimate": 750.0,
+        "total_price_estimate": 1121250.0
+      },
+      {
+        "line_no": 249,
+        "item_code": "PEA-UG-249",
+        "description": "สายใต้ดิน XLPE 22 kV ขนาด 95 sq.mm (ประหยัด)",
+        "quantity": 304,
+        "unit": "เมตร",
+        "unit_price_estimate": 650.0,
+        "total_price_estimate": 197600.0
+      },
+      {
+        "line_no": 250,
+        "item_code": "PEA-UG-250",
+        "description": "สาย Pilot Cable 7 แกน x 2.5 sq.mm แบบ A",
+        "quantity": 1,
+        "unit": "งาน",
+        "unit_price_estimate": -1318924450.0,
+        "total_price_estimate": -1318924450.0
+      }
+    ],
+    "page_boundaries": {
+      "header": [
+        1,
+        1
+      ],
+      "conditions": [
+        2,
+        10
+      ],
+      "items_table": [
+        11,
+        null
+      ],
+      "signatures": [
+        null,
+        null
+      ]
+    }
+  },
+  "PEA-SG-2567-PHASE2": {
+    "agency": "PEA",
+    "title": "โครงการ Smart Grid เฟส 2",
+    "method": "e-bidding",
+    "fiscal_year": 2567,
+    "budget_amount": 320000000,
+    "submission_deadline": "2024-03-15T16:30:00+07:00",
+    "items": [
+      {
+        "line_no": 1,
+        "item_code": "PEA-SG-001",
+        "description": "Smart Meter 1 เฟส 15 A",
+        "quantity": 211,
+        "unit": "ตัว",
+        "unit_price_estimate": 3600.0,
+        "total_price_estimate": 759600.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "PEA-SG-002",
+        "description": "Smart Meter 1 เฟส 30 A",
+        "quantity": 311,
+        "unit": "ตัว",
+        "unit_price_estimate": 3000.0,
+        "total_price_estimate": 933000.0
+      },
+      {
+        "line_no": 3,
+        "item_code": "PEA-SG-003",
+        "description": "Smart Meter 1 เฟส 45 A",
+        "quantity": 132,
+        "unit": "ตัว",
+        "unit_price_estimate": 2900.0,
+        "total_price_estimate": 382800.0
+      },
+      {
+        "line_no": 4,
+        "item_code": "PEA-SG-004",
+        "description": "Smart Meter 3 เฟส 30 A",
+        "quantity": 49,
+        "unit": "ตัว",
+        "unit_price_estimate": 10500.0,
+        "total_price_estimate": 514500.0
+      },
+      {
+        "line_no": 5,
+        "item_code": "PEA-SG-005",
+        "description": "Smart Meter 3 เฟส 50 A",
+        "quantity": 201,
+        "unit": "ตัว",
+        "unit_price_estimate": 13300.0,
+        "total_price_estimate": 2673300.0
+      },
+      {
+        "line_no": 6,
+        "item_code": "PEA-SG-006",
+        "description": "Smart Meter 3 เฟส 100 A",
+        "quantity": 363,
+        "unit": "ตัว",
+        "unit_price_estimate": 13400.0,
+        "total_price_estimate": 4864200.0
+      },
+      {
+        "line_no": 7,
+        "item_code": "PEA-SG-007",
+        "description": "Smart Meter 3 เฟส 200 A",
+        "quantity": 485,
+        "unit": "ตัว",
+        "unit_price_estimate": 14200.0,
+        "total_price_estimate": 6887000.0
+      },
+      {
+        "line_no": 8,
+        "item_code": "PEA-SG-008",
+        "description": "Concentrator Unit รุ่น A",
+        "quantity": 107,
+        "unit": "ตัว",
+        "unit_price_estimate": 33400.0,
+        "total_price_estimate": 3573800.0
+      },
+      {
+        "line_no": 9,
+        "item_code": "PEA-SG-009",
+        "description": "Concentrator Unit รุ่น B",
+        "quantity": 318,
+        "unit": "ตัว",
+        "unit_price_estimate": 36800.0,
+        "total_price_estimate": 11702400.0
+      },
+      {
+        "line_no": 10,
+        "item_code": "PEA-SG-010",
+        "description": "Concentrator Unit รุ่น C",
+        "quantity": 410,
+        "unit": "ตัว",
+        "unit_price_estimate": 43000.0,
+        "total_price_estimate": 17630000.0
+      },
+      {
+        "line_no": 11,
+        "item_code": "PEA-SG-011",
+        "description": "Communication Module 920 MHz",
+        "quantity": 196,
+        "unit": "ตัว",
+        "unit_price_estimate": 7200.0,
+        "total_price_estimate": 1411200.0
+      },
+      {
+        "line_no": 12,
+        "item_code": "PEA-SG-012",
+        "description": "Communication Module 2400 MHz",
+        "quantity": 446,
+        "unit": "ตัว",
+        "unit_price_estimate": 6600.0,
+        "total_price_estimate": 2943600.0
+      },
+      {
+        "line_no": 13,
+        "item_code": "PEA-SG-013",
+        "description": "SCADA RTU แบบ 16 I/O",
+        "quantity": 82,
+        "unit": "ชุด",
+        "unit_price_estimate": 226100.0,
+        "total_price_estimate": 18540200.0
+      },
+      {
+        "line_no": 14,
+        "item_code": "PEA-SG-014",
+        "description": "SCADA RTU แบบ 32 I/O",
+        "quantity": 96,
+        "unit": "ชุด",
+        "unit_price_estimate": 315500.0,
+        "total_price_estimate": 30288000.0
+      },
+      {
+        "line_no": 15,
+        "item_code": "PEA-SG-015",
+        "description": "SCADA RTU แบบ 64 I/O",
+        "quantity": 178,
+        "unit": "ชุด",
+        "unit_price_estimate": 139100.0,
+        "total_price_estimate": 24759800.0
+      },
+      {
+        "line_no": 16,
+        "item_code": "PEA-SG-016",
+        "description": "HMI Display 15 นิ้ว",
+        "quantity": 371,
+        "unit": "ตัว",
+        "unit_price_estimate": 61400.0,
+        "total_price_estimate": 22779400.0
+      },
+      {
+        "line_no": 17,
+        "item_code": "PEA-SG-017",
+        "description": "HMI Display 19 นิ้ว",
+        "quantity": 401,
+        "unit": "ตัว",
+        "unit_price_estimate": 39400.0,
+        "total_price_estimate": 15799400.0
+      },
+      {
+        "line_no": 18,
+        "item_code": "PEA-SG-018",
+        "description": "HMI Display 22 นิ้ว",
+        "quantity": 166,
+        "unit": "ตัว",
+        "unit_price_estimate": 55100.0,
+        "total_price_estimate": 9146600.0
+      },
+      {
+        "line_no": 19,
+        "item_code": "PEA-SG-019",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 185 sq.mm",
+        "quantity": 142,
+        "unit": "เมตร",
+        "unit_price_estimate": 400.0,
+        "total_price_estimate": 56800.0
+      },
+      {
+        "line_no": 20,
+        "item_code": "PEA-SG-020",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 120 sq.mm",
+        "quantity": 222,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 66600.0
+      },
+      {
+        "line_no": 21,
+        "item_code": "PEA-SG-021",
+        "description": "สายอลูมิเนียม XLPE 22 kV ขนาด 95 sq.mm",
+        "quantity": 482,
+        "unit": "เมตร",
+        "unit_price_estimate": 400.0,
+        "total_price_estimate": 192800.0
+      },
+      {
+        "line_no": 22,
+        "item_code": "PEA-SG-022",
+        "description": "Transformer 22/0.4 kV ขนาด 100 kVA",
+        "quantity": 241,
+        "unit": "เครื่อง",
+        "unit_price_estimate": 423800.0,
+        "total_price_estimate": 102135800.0
+      },
+      {
+        "line_no": 23,
+        "item_code": "PEA-SG-023",
+        "description": "Transformer 22/0.4 kV ขนาด 160 kVA",
+        "quantity": 106,
+        "unit": "เครื่อง",
+        "unit_price_estimate": 464600.0,
+        "total_price_estimate": 49247600.0
+      },
+      {
+        "line_no": 24,
+        "item_code": "PEA-SG-024",
+        "description": "Transformer 22/0.4 kV ขนาด 250 kVA",
+        "quantity": 31,
+        "unit": "เครื่อง",
+        "unit_price_estimate": 348000.0,
+        "total_price_estimate": 10788000.0
+      },
+      {
+        "line_no": 25,
+        "item_code": "PEA-SG-025",
+        "description": "Transformer 22/0.4 kV ขนาด 400 kVA",
+        "quantity": 115,
+        "unit": "เครื่อง",
+        "unit_price_estimate": 627600.0,
+        "total_price_estimate": 72174000.0
+      },
+      {
+        "line_no": 26,
+        "item_code": "PEA-SG-026",
+        "description": "Transformer 22/0.4 kV ขนาด 630 kVA",
+        "quantity": 371,
+        "unit": "เครื่อง",
+        "unit_price_estimate": 255600.0,
+        "total_price_estimate": 94827600.0
+      },
+      {
+        "line_no": 27,
+        "item_code": "PEA-SG-027",
+        "description": "Switchgear 22 kV 3 Panel",
+        "quantity": 410,
+        "unit": "ชุด",
+        "unit_price_estimate": 781300.0,
+        "total_price_estimate": 320333000.0
+      },
+      {
+        "line_no": 28,
+        "item_code": "PEA-SG-028",
+        "description": "Switchgear 22 kV 4 Panel",
+        "quantity": 478,
+        "unit": "ชุด",
+        "unit_price_estimate": 1187200.0,
+        "total_price_estimate": 567481600.0
+      },
+      {
+        "line_no": 29,
+        "item_code": "PEA-SG-029",
+        "description": "Switchgear 22 kV 5 Panel",
+        "quantity": 488,
+        "unit": "ชุด",
+        "unit_price_estimate": 827400.0,
+        "total_price_estimate": 403771200.0
+      },
+      {
+        "line_no": 30,
+        "item_code": "PEA-SG-030",
+        "description": "Switchgear 22 kV 6 Panel",
+        "quantity": 95,
+        "unit": "ชุด",
+        "unit_price_estimate": 477800.0,
+        "total_price_estimate": 45391000.0
+      },
+      {
+        "line_no": 31,
+        "item_code": "PEA-SG-031",
+        "description": "Battery Storage 50 kWh",
+        "quantity": 16,
+        "unit": "ชุด",
+        "unit_price_estimate": 344200.0,
+        "total_price_estimate": 5507200.0
+      },
+      {
+        "line_no": 32,
+        "item_code": "PEA-SG-032",
+        "description": "Battery Storage 100 kWh",
+        "quantity": 355,
+        "unit": "ชุด",
+        "unit_price_estimate": 700800.0,
+        "total_price_estimate": 248784000.0
+      },
+      {
+        "line_no": 33,
+        "item_code": "PEA-SG-033",
+        "description": "Battery Storage 200 kWh",
+        "quantity": 46,
+        "unit": "ชุด",
+        "unit_price_estimate": 765200.0,
+        "total_price_estimate": 35199200.0
+      },
+      {
+        "line_no": 34,
+        "item_code": "PEA-SG-034",
+        "description": "Solar Inverter 10 kW",
+        "quantity": 328,
+        "unit": "ชุด",
+        "unit_price_estimate": 56600.0,
+        "total_price_estimate": 18564800.0
+      },
+      {
+        "line_no": 35,
+        "item_code": "PEA-SG-035",
+        "description": "Solar Inverter 20 kW",
+        "quantity": 163,
+        "unit": "ชุด",
+        "unit_price_estimate": 128300.0,
+        "total_price_estimate": 20912900.0
+      },
+      {
+        "line_no": 36,
+        "item_code": "PEA-SG-036",
+        "description": "Solar Inverter 50 kW",
+        "quantity": 200,
+        "unit": "ชุด",
+        "unit_price_estimate": 89500.0,
+        "total_price_estimate": 17900000.0
+      },
+      {
+        "line_no": 37,
+        "item_code": "PEA-SG-037",
+        "description": "Solar Inverter 100 kW",
+        "quantity": 272,
+        "unit": "ชุด",
+        "unit_price_estimate": 99700.0,
+        "total_price_estimate": 27118400.0
+      },
+      {
+        "line_no": 38,
+        "item_code": "PEA-SG-038",
+        "description": "CT/VT 22 kV อัตราส่วน 100/5",
+        "quantity": 465,
+        "unit": "ชุด",
+        "unit_price_estimate": 21400.0,
+        "total_price_estimate": 9951000.0
+      },
+      {
+        "line_no": 39,
+        "item_code": "PEA-SG-039",
+        "description": "CT/VT 22 kV อัตราส่วน 200/5",
+        "quantity": 33,
+        "unit": "ชุด",
+        "unit_price_estimate": 18900.0,
+        "total_price_estimate": 623700.0
+      },
+      {
+        "line_no": 40,
+        "item_code": "PEA-SG-040",
+        "description": "CT/VT 22 kV อัตราส่วน 400/5",
+        "quantity": 231,
+        "unit": "ชุด",
+        "unit_price_estimate": 12400.0,
+        "total_price_estimate": 2864400.0
+      },
+      {
+        "line_no": 41,
+        "item_code": "PEA-SG-041",
+        "description": "CT/VT 22 kV อัตราส่วน 600/5",
+        "quantity": 211,
+        "unit": "ชุด",
+        "unit_price_estimate": 22000.0,
+        "total_price_estimate": 4642000.0
+      },
+      {
+        "line_no": 42,
+        "item_code": "PEA-SG-042",
+        "description": "Power Quality Meter รุ่น PQ-100",
+        "quantity": 69,
+        "unit": "ตัว",
+        "unit_price_estimate": 52700.0,
+        "total_price_estimate": 3636300.0
+      },
+      {
+        "line_no": 43,
+        "item_code": "PEA-SG-043",
+        "description": "Power Quality Meter รุ่น PQ-200",
+        "quantity": 360,
+        "unit": "ตัว",
+        "unit_price_estimate": 58800.0,
+        "total_price_estimate": 21168000.0
+      },
+      {
+        "line_no": 44,
+        "item_code": "PEA-SG-044",
+        "description": "Power Quality Meter รุ่น PQ-300",
+        "quantity": 33,
+        "unit": "ตัว",
+        "unit_price_estimate": 41500.0,
+        "total_price_estimate": 1369500.0
+      },
+      {
+        "line_no": 45,
+        "item_code": "PEA-SG-045",
+        "description": "Fiber Optic Cable 12 Core",
+        "quantity": 447,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 44700.0
+      },
+      {
+        "line_no": 46,
+        "item_code": "PEA-SG-046",
+        "description": "Fiber Optic Cable 24 Core",
+        "quantity": 403,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 40300.0
+      },
+      {
+        "line_no": 47,
+        "item_code": "PEA-SG-047",
+        "description": "Fiber Optic Cable 48 Core",
+        "quantity": 316,
+        "unit": "เมตร",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 31600.0
+      },
+      {
+        "line_no": 48,
+        "item_code": "PEA-SG-048",
+        "description": "Fiber Optic Cable 96 Core",
+        "quantity": 68,
+        "unit": "เมตร",
+        "unit_price_estimate": 0.0,
+        "total_price_estimate": 0.0
+      },
+      {
+        "line_no": 49,
+        "item_code": "PEA-SG-049",
+        "description": "Network Switch 8 Port",
+        "quantity": 78,
+        "unit": "ตัว",
+        "unit_price_estimate": 35700.0,
+        "total_price_estimate": 2784600.0
+      },
+      {
+        "line_no": 50,
+        "item_code": "PEA-SG-050",
+        "description": "Network Switch 16 Port",
+        "quantity": 95,
+        "unit": "ตัว",
+        "unit_price_estimate": 43700.0,
+        "total_price_estimate": 4151500.0
+      },
+      {
+        "line_no": 51,
+        "item_code": "PEA-SG-051",
+        "description": "Network Switch 24 Port",
+        "quantity": 478,
+        "unit": "ตัว",
+        "unit_price_estimate": 29500.0,
+        "total_price_estimate": 14101000.0
+      },
+      {
+        "line_no": 52,
+        "item_code": "PEA-SG-052",
+        "description": "Network Switch 48 Port",
+        "quantity": 292,
+        "unit": "ตัว",
+        "unit_price_estimate": 37300.0,
+        "total_price_estimate": 10891600.0
+      },
+      {
+        "line_no": 53,
+        "item_code": "PEA-SG-053",
+        "description": "UPS ขนาด 3 kVA",
+        "quantity": 260,
+        "unit": "ชุด",
+        "unit_price_estimate": 100800.0,
+        "total_price_estimate": 26208000.0
+      },
+      {
+        "line_no": 54,
+        "item_code": "PEA-SG-054",
+        "description": "UPS ขนาด 5 kVA",
+        "quantity": 438,
+        "unit": "ชุด",
+        "unit_price_estimate": 49500.0,
+        "total_price_estimate": 21681000.0
+      },
+      {
+        "line_no": 55,
+        "item_code": "PEA-SG-055",
+        "description": "UPS ขนาด 10 kVA",
+        "quantity": 444,
+        "unit": "ชุด",
+        "unit_price_estimate": 103100.0,
+        "total_price_estimate": 45776400.0
+      },
+      {
+        "line_no": 56,
+        "item_code": "PEA-SG-056",
+        "description": "UPS ขนาด 20 kVA",
+        "quantity": 100,
+        "unit": "ชุด",
+        "unit_price_estimate": 89400.0,
+        "total_price_estimate": 8940000.0
+      },
+      {
+        "line_no": 57,
+        "item_code": "PEA-SG-057",
+        "description": "Server Rack 12 U",
+        "quantity": 261,
+        "unit": "ตู้",
+        "unit_price_estimate": 23600.0,
+        "total_price_estimate": 6159600.0
+      },
+      {
+        "line_no": 58,
+        "item_code": "PEA-SG-058",
+        "description": "Server Rack 22 U",
+        "quantity": 304,
+        "unit": "ตู้",
+        "unit_price_estimate": 40000.0,
+        "total_price_estimate": 12160000.0
+      },
+      {
+        "line_no": 59,
+        "item_code": "PEA-SG-059",
+        "description": "Server Rack 42 U",
+        "quantity": 177,
+        "unit": "ตู้",
+        "unit_price_estimate": 21500.0,
+        "total_price_estimate": 3805500.0
+      },
+      {
+        "line_no": 60,
+        "item_code": "PEA-SG-060",
+        "description": "GPS Time Sync Module รุ่น TS-100",
+        "quantity": 209,
+        "unit": "ตัว",
+        "unit_price_estimate": 23700.0,
+        "total_price_estimate": 4953300.0
+      },
+      {
+        "line_no": 61,
+        "item_code": "PEA-SG-061",
+        "description": "GPS Time Sync Module รุ่น TS-200",
+        "quantity": 420,
+        "unit": "ตัว",
+        "unit_price_estimate": 24800.0,
+        "total_price_estimate": 10416000.0
+      },
+      {
+        "line_no": 62,
+        "item_code": "PEA-SG-062",
+        "description": "Cable Tray ขนาด 200 มม.",
+        "quantity": 217,
+        "unit": "เมตร",
+        "unit_price_estimate": 600.0,
+        "total_price_estimate": 130200.0
+      },
+      {
+        "line_no": 63,
+        "item_code": "PEA-SG-063",
+        "description": "Cable Tray ขนาด 300 มม.",
+        "quantity": 278,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 83400.0
+      },
+      {
+        "line_no": 64,
+        "item_code": "PEA-SG-064",
+        "description": "Cable Tray ขนาด 450 มม.",
+        "quantity": 455,
+        "unit": "เมตร",
+        "unit_price_estimate": 300.0,
+        "total_price_estimate": 136500.0
+      },
+      {
+        "line_no": 65,
+        "item_code": "PEA-SG-065",
+        "description": "Cable Tray ขนาด 600 มม.",
+        "quantity": 195,
+        "unit": "เมตร",
+        "unit_price_estimate": 500.0,
+        "total_price_estimate": 97500.0
+      },
+      {
+        "line_no": 66,
+        "item_code": "PEA-SG-066",
+        "description": "Outdoor Cabinet IP55",
+        "quantity": 209,
+        "unit": "ตู้",
+        "unit_price_estimate": 73500.0,
+        "total_price_estimate": 15361500.0
+      },
+      {
+        "line_no": 67,
+        "item_code": "PEA-SG-067",
+        "description": "Outdoor Cabinet IP65",
+        "quantity": 122,
+        "unit": "ตู้",
+        "unit_price_estimate": 50600.0,
+        "total_price_estimate": 6173200.0
+      },
+      {
+        "line_no": 68,
+        "item_code": "PEA-SG-068",
+        "description": "DIN Rail Terminal Block 2.5 sq.mm",
+        "quantity": 340,
+        "unit": "ตัว",
+        "unit_price_estimate": 0.0,
+        "total_price_estimate": 0.0
+      },
+      {
+        "line_no": 69,
+        "item_code": "PEA-SG-069",
+        "description": "DIN Rail Terminal Block 4 sq.mm",
+        "quantity": 373,
+        "unit": "ตัว",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 37300.0
+      },
+      {
+        "line_no": 70,
+        "item_code": "PEA-SG-070",
+        "description": "DIN Rail Terminal Block 6 sq.mm",
+        "quantity": 452,
+        "unit": "ตัว",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 45200.0
+      },
+      {
+        "line_no": 71,
+        "item_code": "PEA-SG-071",
+        "description": "DIN Rail Terminal Block 10 sq.mm",
+        "quantity": 165,
+        "unit": "ตัว",
+        "unit_price_estimate": 0.0,
+        "total_price_estimate": 0.0
+      },
+      {
+        "line_no": 72,
+        "item_code": "PEA-SG-072",
+        "description": "DIN Rail Terminal Block 16 sq.mm",
+        "quantity": 419,
+        "unit": "ตัว",
+        "unit_price_estimate": 100.0,
+        "total_price_estimate": 41900.0
+      },
+      {
+        "line_no": 73,
+        "item_code": "PEA-SG-073",
+        "description": "Surge Protection Device 10 kA",
+        "quantity": 369,
+        "unit": "ตัว",
+        "unit_price_estimate": 3100.0,
+        "total_price_estimate": 1143900.0
+      },
+      {
+        "line_no": 74,
+        "item_code": "PEA-SG-074",
+        "description": "Surge Protection Device 20 kA",
+        "quantity": 156,
+        "unit": "ตัว",
+        "unit_price_estimate": 4300.0,
+        "total_price_estimate": 670800.0
+      },
+      {
+        "line_no": 75,
+        "item_code": "PEA-SG-075",
+        "description": "Surge Protection Device 40 kA",
+        "quantity": 496,
+        "unit": "ตัว",
+        "unit_price_estimate": 2000.0,
+        "total_price_estimate": 992000.0
+      },
+      {
+        "line_no": 76,
+        "item_code": "PEA-SG-076",
+        "description": "เครื่องวัดพลังงาน Class 0.2 Accuracy",
+        "quantity": 229,
+        "unit": "ตัว",
+        "unit_price_estimate": 25900.0,
+        "total_price_estimate": 5931100.0
+      },
+      {
+        "line_no": 77,
+        "item_code": "PEA-SG-077",
+        "description": "เครื่องวัดพลังงาน Class 0.5 Accuracy",
+        "quantity": 469,
+        "unit": "ตัว",
+        "unit_price_estimate": 20500.0,
+        "total_price_estimate": 9614500.0
+      },
+      {
+        "line_no": 78,
+        "item_code": "PEA-SG-078",
+        "description": "เครื่องวัดพลังงาน Class 1.0 Accuracy",
+        "quantity": 262,
+        "unit": "ตัว",
+        "unit_price_estimate": 21700.0,
+        "total_price_estimate": 5685400.0
+      },
+      {
+        "line_no": 79,
+        "item_code": "PEA-SG-079",
+        "description": "Current Limiter Fuse 50 A",
+        "quantity": 355,
+        "unit": "ตัว",
+        "unit_price_estimate": 7300.0,
+        "total_price_estimate": 2591500.0
+      },
+      {
+        "line_no": 80,
+        "item_code": "PEA-SG-080",
+        "description": "Current Limiter Fuse 100 A",
+        "quantity": 1,
+        "unit": "งาน",
+        "unit_price_estimate": -2161177200.0,
+        "total_price_estimate": -2161177200.0
+      }
+    ],
+    "page_boundaries": {
+      "header": [
+        1,
+        1
+      ],
+      "conditions": [
+        2,
+        10
+      ],
+      "items_table": [
+        1,
+        15
+      ],
+      "signatures": [
+        null,
+        null
+      ]
+    }
+  }
+}
