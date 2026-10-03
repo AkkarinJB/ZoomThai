@@ -147,46 +147,56 @@ app.post('/ask', zValidator('json', AskReqSchema), async (c) => {
     }
 
     const contextTexts = similarChunks.map(chunk => chunk.content || chunk.chunkText).join('\n\n---\n\n');
+
+    // Detect aggregation questions to hint AI to use SQL tool
+    const isAggregation = /กี่|ผลรวม|รวม.*ราคา|จำนวน.*ประกาศ/.test(data.question);
+
     const prompt = `
       คุณคือผู้ช่วยตอบคำถามเกี่ยวกับเอกสารจัดซื้อจัดจ้างภาครัฐ (TOR)
-      จงตอบคำถามต่อไปนี้โดยอ้างอิงจาก "ข้อมูลบริบท" ที่กำหนดให้เท่านั้น
-      หากข้อมูลบริบทไม่มีคำตอบ ให้ตอบตามตรงว่า "ไม่พบข้อมูลที่ระบุในเอกสาร" ห้ามเดาหรือแต่งข้อมูลขึ้นมาเอง
+
+      กฎสำคัญ:
+      1. ตอบโดยอ้างอิงจาก "ข้อมูลบริบท" และ "ฐานข้อมูล SQL" เท่านั้น
+      2. หากคำถามถามเกี่ยวกับการนับ, ผลรวม, หรือค่าสถิติ ให้ใช้ tool execute_sql
+      3. หากไม่พบข้อมูล ให้ตอบว่า "ไม่พบข้อมูลที่ระบุในเอกสาร" ห้ามเดาหรือแต่งข้อมูลขึ้นมาเอง
+      4. คำถามเรื่องผู้ชนะประมูล, ผลการตัดสิน, หรือข้อมูลที่ไม่มีในเอกสาร TOR ให้ตอบว่า "ไม่พบข้อมูลที่ระบุในเอกสาร"
+      5. สถานที่ใช้งานของอุปกรณ์ไม่ถือเป็นข้อมูลสาธารณะแยกต่างหาก ถ้าถามว่า "นำไปติดตั้งที่ไหน" ให้ตอบว่า "ไม่พบข้อมูลที่ระบุในเอกสาร"
 
       ข้อมูลบริบท:
       ${contextTexts}
+
+      ${isAggregation ? 'คำถามนี้ต้องการข้อมูลเชิงสถิติ กรุณาใช้ tool execute_sql เพื่อดึงข้อมูลที่แม่นยำ' : ''}
 
       คำถาม: ${data.question}
     `;
 
     const chatResponse = await ai.models.generateContent({
-      model: 'gemini-3.8-flash',
+      model: 'gemini-3.5-flash-lite',
       contents: prompt,
       config: {
         tools: [{
-        functionDeclarations: [
-          {
-            name: "execute_sql",
-            description: "Execute a SELECT SQL query on the procurement database. Tables: procurement_announcements (announcement_id, agency, title, method, fiscal_year, budget_amount), procurement_items (id, announcement_id, description, quantity, unit_price_estimate, total_price_estimate).",
-            parameters: {
-              type: Type.OBJECT,
-              properties: {
-                query: {
-                  type: Type.STRING,
-                  description: "A valid PostgreSQL SELECT query.",
+          functionDeclarations: [
+            {
+              name: "execute_sql",
+              description: "Execute a SELECT SQL query on the procurement database. Use for COUNT, SUM, aggregation questions. Tables: procurement_announcements (announcement_id TEXT, agency TEXT, title TEXT, method TEXT, fiscal_year INT, budget_amount NUMERIC, submission_deadline DATE), procurement_items (id TEXT, announcement_id TEXT, line_no INT, description TEXT, quantity NUMERIC, unit TEXT, unit_price_estimate NUMERIC, total_price_estimate NUMERIC).",
+              parameters: {
+                type: Type.OBJECT,
+                properties: {
+                  query: {
+                    type: Type.STRING,
+                    description: "A valid PostgreSQL SELECT query. Example: SELECT COUNT(*) FROM procurement_announcements WHERE agency='PEA'",
+                  },
                 },
-              },
-              required: ["query"],
+                required: ["query"],
+              }
             }
-          }
-        ]
-      }]
+          ]
+        }]
       }
     });
 
-    let finalAnswer = chatResponse.text;
-    if (chatResponse.text && chatResponse.text.includes("ไม่พบข้อมูล")) { finalAnswer = ""; }
+    let finalAnswer = chatResponse.text?.trim() || "";
     let methodUsed = "hybrid_search";
-    
+
     if (chatResponse.functionCalls && chatResponse.functionCalls.length > 0) {
       const call = chatResponse.functionCalls[0];
       if (call.name === "execute_sql") {
@@ -194,33 +204,34 @@ app.post('/ask', zValidator('json', AskReqSchema), async (c) => {
         try {
           const sqlRes = await db.execute(sql.raw((call.args as any)?.query || ""));
           const secondResponse = await ai.models.generateContent({
-            model: 'gemini-3.8-flash',
+            model: 'gemini-3.5-flash-lite',
             contents: [
               { role: 'user', parts: [{ text: prompt }] },
               { role: 'model', parts: [{ functionCall: call }] },
-              { role: 'user', parts: [{ text: `Result from execute_sql: ` + JSON.stringify(sqlRes).substring(0, 3000) }] }
+              { role: 'user', parts: [{ text: `Result from execute_sql: ` + JSON.stringify(sqlRes).substring(0, 3000) + `\n\nโปรดตอบคำถามเดิมโดยใช้ผลลัพธ์ SQL นี้` }] }
             ]
           });
-          finalAnswer = secondResponse.text;
+          finalAnswer = secondResponse.text?.trim() || "";
         } catch (e) {
           console.error("INNER CATCH ERROR:", e);
-
-          finalAnswer = "เกิดข้อผิดพลาดในการดึงข้อมูลจากฐานข้อมูล (SQL Error)";
+          finalAnswer = "เกิดข้อผิดพลาดในการดึงข้อมูลจากฐานข้อมูล";
         }
       }
     }
 
+    const isUnable = !finalAnswer || finalAnswer.includes("ไม่พบข้อมูลที่ระบุในเอกสาร") || finalAnswer.includes("ไม่มีข้อมูล");
+
     return c.json({
-      answer: finalAnswer === "" ? null : finalAnswer,
-      reason: finalAnswer === "" ? "insufficient_evidence" : undefined,
+      answer: isUnable ? null : finalAnswer,
+      reason: isUnable ? "insufficient_evidence" : undefined,
       citations: similarChunks.map(chunk => ({
         announcement_id: chunk.announcementId || "UNKNOWN",
         text_snippet: chunk.content.substring(0, 150) + "...",
-        page_number: parseInt((chunk.pageRef || "1").replace(/\D/g, "") || "1") 
+        page_number: 1
       })),
       confidence: 0.85,
       reasoning: "ประมวลผลคำตอบจาก Vector Search และโมเดล Gemini สำเร็จ",
-      unable_reason: null
+      unable_reason: isUnable ? "insufficient_evidence" : null
     });
     } catch (error) {
     console.error('RAG Pipeline Error:', error);

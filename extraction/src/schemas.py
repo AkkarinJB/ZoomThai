@@ -7,8 +7,8 @@ class ProcurementItem(BaseModel):
     description: str
     quantity: float
     unit: str
-    unit_price_estimate: float
-    total_price_estimate: float
+    unit_price_estimate: Optional[float] = None
+    total_price_estimate: Optional[float] = None
 
 class ExtractionResult(BaseModel):
     items: List[ProcurementItem]

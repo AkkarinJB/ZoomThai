@@ -1,5 +1,5 @@
 use super::Environment;
 
 pub const ENV: Environment = Environment {
-    api_base_url: "https://api.zoomthai.com",
+    api_base_url: "http://localhost:3000",
 };
