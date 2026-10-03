@@ -38,5 +38,27 @@ services:
       - ./api:/app/api
       - ./fixtures:/app/fixtures
 
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: zoomthai_frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+
+  seeder:
+    build:
+      context: .
+      dockerfile: extraction/Dockerfile
+    container_name: zoomthai_seeder
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgres://admin:password@db:5432/zoomthai
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+
 volumes:
   pgdata:

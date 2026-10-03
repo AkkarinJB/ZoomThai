@@ -54,7 +54,8 @@ class VLMExtractionStrategy(ExtractionStrategy):
                         extracted_data = json.loads(raw_text)
                         for item in extracted_data:
                             all_extracted_items.append(ProcurementItem(**item))
-                    except:
+                    except Exception as e:
+                        print(f"JSON Parse Error: {e} | Raw: {raw_text}")
                         pass
             
             print(f"VLM สกัดข้อมูลสำเร็จ: พบ {len(all_extracted_items)} รายการจากทุกหน้า")
@@ -65,7 +66,6 @@ class VLMExtractionStrategy(ExtractionStrategy):
                 method_used="vlm_fallback"
             )
             
-        except Exception as e:
         except Exception as e:
             print(f"VLM Error: {e}")
             return ExtractionResult(
