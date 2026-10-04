@@ -10,14 +10,15 @@ ZoomThai is a comprehensive and scalable platform designed to aggregate, index, 
 
 ## Table of Contents
 
-Please refer to the following supplementary documents for detailed analyses and component-specific documentation:
-- [Installation  Guide](#installation--guide)
-- [Part A — Architecture Design](#part-a-architecture-overview)
-- [Part B — Backend Design]()
-- [Part C — Rust Using WASM]()
-- [Part D Cost, Scale, and PDPA Analysis](./cost-analysis.md)
-- [Backend Documentation](./api/README.md)
-- [Frontend Documentation & Reflections](./frontend/README.md)
+1. [Prerequisites & Requirements](#prerequisites--requirements)
+2. [Installation & Deployment Guide](#installation--deployment-guide)
+3. [Architecture Overview (Part A)](#part-a-architecture-overview)
+4. [Trade-Off Discussion (Part E)](#part-e-trade-off-discussion)
+5. [Evaluation Metrics](#evaluation-metrics)
+6. **Supplementary Documentation**
+   - [Backend API Documentation (Part B)](./api/README.md) 
+   - [Frontend WASM Documentation (Part C)](./frontend/README.md) 
+   - [Cost, Scale, and PDPA Analysis (Part D)](./cost-analysis.md)
 
 ---
 
