@@ -1,7 +1,7 @@
 import os
 import sys
 # Add parent dir to path to import adapters
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../adapters')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
 import psycopg2
 import uuid
@@ -10,7 +10,7 @@ from config import settings
 from extractors.plumber import PlumberExtractionStrategy
 from extractors.gemini import VLMExtractionStrategy
 from orchestrator import TORExtractorOrchestrator
-from pea import PEAAdapter
+from adapters.src.pea import PEAAdapter
 
 def chunk_text(text: str, chunk_size: int = 500, overlap: int = 50) -> list[str]:
     chunks = []
