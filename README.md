@@ -136,3 +136,19 @@ For an initial backlog of 50,000 TOR documents, the first seven days are priorit
 4. **Batch Embedding:** Generate vector embeddings in optimized batches to reduce API costs.
 
 ---
+
+---
+
+## Evaluation Metrics
+
+### 1. Document Extraction (Part B1)
+The extraction pipeline (pdfplumber + VLM Fallback) was evaluated against the provided `ground_truth.json` containing complex TOR documents (scanned, distorted, large volumes).
+- **Precision:** 0.9492 (Threshold: >= 0.80)
+- **Recall:** 0.9180
+- **F1-Score:** 0.9333
+
+### 2. Search & RAG Accuracy (Part B3)
+The Retrieval-Augmented Generation API (`/ask`) and semantic hybrid search (`/search`) were evaluated using `run_eval.ts` against the 12 fixture questions (Retrieval, Aggregation, Unanswerable).
+- **Accuracy:** 100% (12/12 passed) (Threshold: >= 0.65)
+- **Recall@5:** 100%
+- **Hallucination Rate:** 0% (Threshold: <= 15%)

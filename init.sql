@@ -13,6 +13,14 @@ CREATE TABLE procurement_announcements (
     updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 
+CREATE TABLE attachments (
+    id SERIAL PRIMARY KEY,
+    announcement_id VARCHAR(50) REFERENCES procurement_announcements(announcement_id) ON DELETE CASCADE,
+    file_name VARCHAR(255) NOT NULL,
+    file_path TEXT NOT NULL,
+    file_type VARCHAR(50)
+);
+
 CREATE TABLE procurement_items (
     id SERIAL PRIMARY KEY,
     announcement_id VARCHAR(50) REFERENCES procurement_announcements(announcement_id) ON DELETE CASCADE,

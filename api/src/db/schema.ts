@@ -12,7 +12,7 @@ import { pgTable,
 
 const vector = customType<{ data: number[]; driverData: string }>({
   dataType() {
-    return 'vector(768)';
+    return 'vector(3072)';
   },
   toDriver(value: number[]): string {
     return `[${value.join(',')}]`;
@@ -34,6 +34,14 @@ export const announcements = pgTable('procurement_announcements', {
     agencyIdx: index('idx_agency').on(table.agency),
     budgetIdx: index('idx_budget').on(table.budgetAmount),
   };
+});
+
+export const attachments = pgTable('attachments', {
+  id: serial('id').primaryKey(),
+  announcementId: varchar('announcement_id', { length: 50 }).references(() => announcements.id, { onDelete: 'cascade' }),
+  fileName: varchar('file_name', { length: 255 }).notNull(),
+  filePath: text('file_path').notNull(),
+  fileType: varchar('file_type', { length: 50 }),
 });
 
 export const procurementItems = pgTable('procurement_items', {
