@@ -10,7 +10,7 @@ from config import settings
 from extractors.plumber import PlumberExtractionStrategy
 from extractors.gemini import VLMExtractionStrategy
 from orchestrator import TORExtractorOrchestrator
-from src.pea import PEAAdapter
+from pea import PEAAdapter
 
 def chunk_text(text: str, chunk_size: int = 500, overlap: int = 50) -> list[str]:
     chunks = []
