@@ -4,21 +4,20 @@ ZoomThai is a comprehensive and scalable platform designed to aggregate, index, 
 
 ![search-page](./frontend/screenshots/search-page.png)
 
-
-
 ![ask-page](./frontend/screenshots/ask-page.png)
 
 ---
 
-
 ## Table of Contents
 
 Please refer to the following supplementary documents for detailed analyses and component-specific documentation:
-
-- 📄 [Part D: Cost, Scale, and PDPA Analysis](./cost-analysis.md)
-- 📄 [Backend API Documentation](./api/README.md)
-- 📄 [Frontend Documentation & Reflections](./frontend/README.md)
-- 📄 [Installation  Guide](#installation--guide)
+- [Installation  Guide](#installation--guide)
+- [Part A — Architecture Design](#part-a-architecture-overview)
+- [Part B — Backend Design]()
+- [Part C — Rust Using WASM]()
+- [Part D Cost, Scale, and PDPA Analysis](./cost-analysis.md)
+- [Backend Documentation](./api/README.md)
+- [Frontend Documentation & Reflections](./frontend/README.md)
 
 ---
 
@@ -79,6 +78,8 @@ Upon running `docker compose up`, the system will automatically:
 ## Part A: Architecture Overview
 
 The system architecture is designed for modularity, high throughput, and robust idempotency.
+
+![Architecture Overview](./frontend/screenshots/Architecture.drawio.png)
 
 ### Core Components
 
