@@ -142,13 +142,19 @@ For an initial backlog of 50,000 TOR documents, the first seven days are priorit
 ## Evaluation Metrics
 
 ### 1. Document Extraction (Part B1)
-The extraction pipeline (pdfplumber + VLM Fallback) was evaluated against the provided `ground_truth.json` containing complex TOR documents (scanned, distorted, large volumes).
-- **Precision:** 0.9492 (Threshold: >= 0.80)
-- **Recall:** 0.9180
-- **F1-Score:** 0.9333
+The extraction pipeline (`pdfplumber` + VLM Fallback) was evaluated against the provided `ground_truth.json`, which contains complex TOR documents (scanned, distorted, large volumes).
+
+| Metric | Achieved Score | Target Threshold | Status |
+| :--- | :---: | :---: | :---: |
+| **Precision** | **0.9492** | ≥ 0.80 | Passed |
+| **Recall** | **0.9180** | - | - |
+| **F1-Score** | **0.9333** | - | - |
 
 ### 2. Search & RAG Accuracy (Part B3)
 The Retrieval-Augmented Generation API (`/ask`) and semantic hybrid search (`/search`) were evaluated using `run_eval.ts` against the 12 fixture questions (Retrieval, Aggregation, Unanswerable).
-- **Accuracy:** 100% (12/12 passed) (Threshold: >= 0.65)
-- **Recall@5:** 100%
-- **Hallucination Rate:** 0% (Threshold: <= 15%)
+
+| Metric | Achieved Score | Target Threshold | Status |
+| :--- | :---: | :---: | :---: |
+| **Answer Accuracy** | **100.0%** (12/12) | ≥ 65.0% | Passed |
+| **Retrieval Recall@5** | **100.0%** | ≥ 75.0% | Passed |
+| **Hallucination Rate** | **0.0%** | ≤ 15.0% | Passed |
