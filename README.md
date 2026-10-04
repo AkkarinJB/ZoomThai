@@ -4,6 +4,8 @@ ZoomThai is a comprehensive and scalable platform designed to aggregate, index, 
 
 ![search-page](./frontend/screenshots/search-page.png)
 
+![detail-page.png](./frontend/screenshots/detail-page.png)
+
 ![ask-page](./frontend/screenshots/ask-page.png)
 
 ---
@@ -16,8 +18,8 @@ ZoomThai is a comprehensive and scalable platform designed to aggregate, index, 
 4. [Trade-Off Discussion (Part E)](#part-e-trade-off-discussion)
 5. [Evaluation Metrics](#evaluation-metrics)
 6. **Supplementary Documentation**
-   - [Backend API Documentation (Part B)](./api/README.md) 
-   - [Frontend WASM Documentation (Part C)](./frontend/README.md) 
+   - [Backend API Documentation (Part B)](./api/README.md)
+   - [Frontend WASM Documentation (Part C)](./frontend/README.md)
    - [Cost, Scale, and PDPA Analysis (Part D)](./cost-analysis.md)
 
 ---
@@ -138,24 +140,26 @@ For an initial backlog of 50,000 TOR documents, the first seven days are priorit
 
 ---
 
----
-
 ## Evaluation Metrics
 
 ### 1. Document Extraction (Part B1)
+
 The extraction pipeline (`pdfplumber` + VLM Fallback) was evaluated against the provided `ground_truth.json`, which contains complex TOR documents (scanned, distorted, large volumes).
 
-| Metric | Achieved Score | Target Threshold | Status |
-| :--- | :---: | :---: | :---: |
-| **Precision** | **0.9492** | ≥ 0.80 | Passed |
-| **Recall** | **0.9180** | - | - |
-| **F1-Score** | **0.9333** | - | - |
+
+| Metric        | Achieved Score | Target Threshold | Status |
+| :------------ | :------------: | :--------------: | :----: |
+| **Precision** |   **0.9492**   |     ≥ 0.80     | Passed |
+| **Recall**    |   **0.9180**   |        -        |   -   |
+| **F1-Score**  |   **0.9333**   |        -        |   -   |
 
 ### 2. Search & RAG Accuracy (Part B3)
+
 The Retrieval-Augmented Generation API (`/ask`) and semantic hybrid search (`/search`) were evaluated using `run_eval.ts` against the 12 fixture questions (Retrieval, Aggregation, Unanswerable).
 
-| Metric | Achieved Score | Target Threshold | Status |
-| :--- | :---: | :---: | :---: |
-| **Answer Accuracy** | **100.0%** (12/12) | ≥ 65.0% | Passed |
-| **Retrieval Recall@5** | **100.0%** | ≥ 75.0% | Passed |
-| **Hallucination Rate** | **0.0%** | ≤ 15.0% | Passed |
+
+| Metric                 |   Achieved Score   | Target Threshold | Status |
+| :--------------------- | :----------------: | :--------------: | :----: |
+| **Answer Accuracy**    | **100.0%** (12/12) |     ≥ 65.0%     | Passed |
+| **Retrieval Recall@5** |     **100.0%**     |     ≥ 75.0%     | Passed |
+| **Hallucination Rate** |      **0.0%**      |     ≤ 15.0%     | Passed |
