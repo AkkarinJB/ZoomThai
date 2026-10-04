@@ -1,5 +1,13 @@
 # ZoomThai Frontend (Rust + Leptos)
 
+## Table of Contents
+1. [Framework Selection: Why Leptos?](#framework-selection-why-leptos)
+2. [The Learning Curve & Process](#the-learning-curve--process)
+3. [Implementation Pain Points](#implementation-pain-points)
+4. [Bundle Size](#bundle-size)
+5. [Honest Reflection](#honest-reflection)
+6. [Project Directory Tree](#project-directory-tree)
+
 ## Framework Selection: Why Leptos?
 For this project, I chose **Leptos** over alternatives like Yew, Dioxus, or Sycamore for the following reasons:
 1. **Fine-grained Reactivity:** Leptos uses a Signals-based reactivity system that updates the DOM precisely where changes occur, eliminating the need for a Virtual DOM. This results in performance closely rivaling Vanilla JavaScript.
@@ -27,3 +35,27 @@ Initiating frontend development with Rust was a highly rewarding challenge.
 
 ## Honest Reflection
 Although setting up a Rust frontend requires a larger initial time investment compared to React, the paradigm of **"if it compiles, it works"** is profoundly accurate. The uncompromising type system successfully caught all potential runtime errors (e.g., null API fields) during compilation. This experience provided a transformative perspective on building robust, enterprise-grade web applications.
+
+## Project Directory Tree
+```text
+frontend/
+├── Cargo.toml
+├── Dockerfile
+├── README.md
+├── index.html
+├── screenshots/
+├── src/
+│   ├── app.rs
+│   ├── components/
+│   │   ├── chat.rs
+│   │   ├── home.rs
+│   │   ├── procurement_table.rs
+│   │   └── ui.rs
+│   ├── config.rs
+│   ├── environments/
+│   ├── main.rs
+│   ├── models/
+│   └── services/
+│       └── api.rs
+└── style.css
+```

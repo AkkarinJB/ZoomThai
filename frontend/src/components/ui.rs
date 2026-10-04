@@ -150,3 +150,59 @@ pub fn ResultSummary(total: i32, latency_ms: f64) -> impl IntoView {
         </p>
     }
 }
+
+#[cfg(all(test, target_arch = "wasm32"))]
+mod tests {
+    use super::*;
+    use leptos::*;
+    use wasm_bindgen_test::*;
+    use wasm_bindgen::JsCast;
+
+    wasm_bindgen_test_configure!(run_in_browser);
+
+    #[wasm_bindgen_test]
+    fn test_loading_state() {
+        let document = leptos::document();
+        let test_div = document.create_element("div").unwrap();
+        let _ = document.body().unwrap().append_child(&test_div);
+
+        mount_to(
+            test_div.clone().unchecked_into(),
+            || view! { <LoadingState message="กำลังโหลด..." /> }
+        );
+
+        let html = test_div.inner_html();
+        assert!(html.contains("กำลังโหลด..."));
+    }
+
+    #[wasm_bindgen_test]
+    fn test_empty_state() {
+        let document = leptos::document();
+        let test_div = document.create_element("div").unwrap();
+        let _ = document.body().unwrap().append_child(&test_div);
+
+        mount_to(
+            test_div.clone().unchecked_into(),
+            || view! { <EmptyState heading="ไม่พบข้อมูล" sub=Some("ลองค้นหาใหม่") /> }
+        );
+
+        let html = test_div.inner_html();
+        assert!(html.contains("ไม่พบข้อมูล"));
+        assert!(html.contains("ลองค้นหาใหม่"));
+    }
+
+    #[wasm_bindgen_test]
+    fn test_method_badge() {
+        let document = leptos::document();
+        let test_div = document.create_element("div").unwrap();
+        let _ = document.body().unwrap().append_child(&test_div);
+
+        mount_to(
+            test_div.clone().unchecked_into(),
+            || view! { <MethodBadge method="e-bidding".to_string() /> }
+        );
+
+        let html = test_div.inner_html();
+        assert!(html.contains("e-bidding"));
+    }
+}

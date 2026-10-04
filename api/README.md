@@ -1,5 +1,14 @@
 # ZoomThai Backend API (Node.js & Hono)
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Technology Stack](#technology-stack)
+3. [API Endpoints](#api-endpoints)
+4. [Pain Points & Solutions](#pain-points--solutions)
+5. [Backend Architecture](#backend-architecture)
+   - [Project Directory Tree](#project-directory-tree)
+   - [Database ER-Diagram](#database-er-diagram)
+
 ## Overview
 The backend API is built with **Node.js** and the **Hono** framework. It serves as the bridge between the PostgreSQL vector database and the Rust/Leptos frontend, providing high-performance RESTful endpoints for both traditional structured searches and semantic AI-powered queries.
 
@@ -14,12 +23,43 @@ The backend API is built with **Node.js** and the **Hono** framework. It serves 
 ### 1. `GET /health`
 Returns the operational status of the API and the database connection.
 
+**cURL Example:**
+```bash
+curl -X GET http://localhost:3000/health
+```
+
 ### 2. `POST /search`
 Performs a traditional structured search across procurement announcements with support for filtering and pagination.
-- **Payload:** `{ query?: string, filters?: { agency?: string[], method?: string, budget_min?: number, budget_max?: number }, limit: number, offset: number }`
+
+**Payload:**
+```json
+{
+  "query": "สายไฟ 22kV",
+  "filters": {
+    "agency": ["PEA", "MEA"],
+    "method": "e-bidding",
+    "budget_min": 1000000,
+    "budget_max": 50000000
+  },
+  "limit": 20,
+  "offset": 0
+}
+```
+
+**cURL Example:**
+```bash
+curl -X POST http://localhost:3000/search \
+  -H "Content-Type: application/json" \
+  -d '{"query":"สายไฟ 22kV","limit":20,"offset":0}'
+```
 
 ### 3. `GET /announcements/:id/items`
 Retrieves all procurement items (BOM/BOQ) associated with a specific announcement ID.
+
+**cURL Example:**
+```bash
+curl -X GET http://localhost:3000/announcements/PEA-TDDP.2(A)-082%2F2564/items
+```
 
 ### 4. `POST /ask`
 The core AI endpoint for the Retrieval-Augmented Generation (RAG) feature.
@@ -28,9 +68,112 @@ The core AI endpoint for the Retrieval-Augmented Generation (RAG) feature.
   2. Performs a **Hybrid Search** (Vector L2 Distance + PostgreSQL Text Search) to retrieve the top 5 most relevant document chunks.
   3. Detects aggregation intents (e.g., "count", "sum") and utilizes Gemini's Function Calling to execute raw SQL against the database for mathematical accuracy.
   4. Synthesizes the final answer using the retrieved context or SQL result.
-- **Payload:** `{ question: string, top_k: number }`
-- **Returns:** `{ answer: string | null, citations: array, confidence: number }`
+
+**Payload:**
+```json
+{
+  "question": "ปี 2567 มีจัดซื้อสายไฟกี่โครงการ?",
+  "top_k": 5
+}
+```
+
+**Returns:**
+```json
+{
+  "answer": "ในปี 2567 มีการจัดซื้อสายไฟทั้งหมด...",
+  "citations": [
+    {
+      "announcement_id": "PEA-1234",
+      "page_ref": "p.4"
+    }
+  ],
+  "confidence": 0.88
+}
+```
+
+**cURL Example:**
+```bash
+curl -X POST http://localhost:3000/ask \
+  -H "Content-Type: application/json" \
+  -d '{"question":"ปี 2567 มีจัดซื้อสายไฟกี่โครงการ?"}'
+```
 
 ## Pain Points & Solutions
 - **Vector Dimensions:** The initial setup mismatched embedding dimensions (768 vs 3072). This was resolved by explicitly defining `vector(3072)` in `pgvector` to align with the output of `gemini-embedding-001`.
 - **Hybrid Search Tuning:** Combining semantic vector search with keyword-based `ts_rank` required careful SQL query tuning to ensure exact terminology (e.g., cable sizes) was weighted appropriately alongside semantic meaning.
+
+## Backend Architecture
+
+### Project Directory Tree
+```text
+api/
+├── README.md
+├── eval/
+│   └── run_eval.ts
+├── package.json
+├── src/
+│   ├── db/
+│   │   ├── index.ts
+│   │   └── schema.ts
+│   ├── index.ts
+│   └── schema.ts
+└── tsconfig.json
+```
+
+### Database ER-Diagram
+The following Entity-Relationship diagram outlines the structure of the `zoomthai_db` PostgreSQL database, including vector storage for RAG:
+
+```mermaid
+erDiagram
+    procurement_announcements ||--o{ attachments : "has"
+    procurement_announcements ||--o{ procurement_items : "contains"
+    procurement_announcements ||--o{ document_chunks : "chunked into"
+    procurement_announcements ||--o{ embeddings : "represented as"
+
+    procurement_announcements {
+        VARCHAR announcement_id PK
+        VARCHAR agency
+        TEXT title
+        VARCHAR method
+        INT fiscal_year
+        NUMERIC budget_amount
+        TIMESTAMPTZ submission_deadline
+        TEXT tor_pdf_path
+        TIMESTAMPTZ created_at
+    }
+    
+    attachments {
+        SERIAL id PK
+        VARCHAR announcement_id FK
+        VARCHAR file_name
+        TEXT file_path
+        VARCHAR file_type
+    }
+
+    procurement_items {
+        SERIAL id PK
+        VARCHAR announcement_id FK
+        INT line_no
+        VARCHAR item_code
+        TEXT description
+        NUMERIC quantity
+        VARCHAR unit
+        NUMERIC unit_price_estimate
+        NUMERIC total_price_estimate
+    }
+
+    document_chunks {
+        VARCHAR id PK
+        VARCHAR announcement_id FK
+        TEXT content
+        VECTOR embedding
+    }
+
+    embeddings {
+        SERIAL id PK
+        VARCHAR announcement_id FK
+        VARCHAR page_ref
+        TEXT chunk_text
+        VECTOR embedding
+    }
+```
