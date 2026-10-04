@@ -2,6 +2,10 @@
 
 ZoomThai is a comprehensive and scalable platform designed to aggregate, index, and analyze government procurement announcements and Terms of Reference (TOR) documents. This project fulfills the requirements of the LODASH Software Engineering Challenge.
 
+## Video Demonstration
+
+👉🏻 **[Watch the Full Project Demo](./frontend/screenshots/DEMO.mov)**
+
 ![search-page](./frontend/screenshots/search-page.png)
 
 ![detail-page.png](./frontend/screenshots/detail-page.png)
